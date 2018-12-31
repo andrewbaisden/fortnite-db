@@ -17,6 +17,7 @@ const getItemsFromFile = cb => {
   });
 };
 
+// Query API by ID
 exports.findWeaponById = (id, cb) => {
   getItemsFromFile(items => {
     const item = items.weapon.find(i => i.id === id);
@@ -97,18 +98,20 @@ exports.findToysById = (id, cb) => {
   });
 }
 
-// exports.findByTitle = (title, cb) => {
-//   getItemsFromFile(items => {
-//     const item = items.find(i => i.title === title);
+// Query API by type
+exports.findByType = (type, cb) => {
+  getItemsFromFile(items => {
+    const item = items.find(i => i.type === type);
     
-//     cb(item);
-//   });
-// }
+    cb(item);
+  });
+}
 
-// exports.findByPrice = (price, cb) => {
-//   getItemsFromFile(items => {
-//     const item = items.find(i => i.price === price);
+// Query API by rarity
+exports.findByRarity = (itemRarity, cb) => {
+  getItemsFromFile(items => {
+    const item = items.find(i => i.itemRarity === itemRarity);
     
-//     cb(item);
-//   });
-// }
+    cb(item);
+  });
+}

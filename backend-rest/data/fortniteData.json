@@ -2,7 +2,1431 @@
     "weapon": [
         {
             "id": "1",
-            "name": "weapon"
+            "name": "Burst Rare",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/assaultRifleBurstRare.png",
+            "information": [
+                {
+                    "damage": 32,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.75,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.5s",
+                    "ammoCost": 1,
+                    "impact": 46
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Burst Rare",
+            "type": "Assault Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/assaultRifleBurstRare.png",
+            "information": [
+                {
+                    "damage": 38,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.75,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 48
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Burst",
+            "type": "Assault Rifle",
+            "itemRarity": "Common",
+            "img": "assets/weapons/assaultRifleBurst.png",
+            "information": [
+                {
+                    "damage": 27,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.75,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.9s",
+                    "ammoCost": 1,
+                    "impact": 40
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Burst",
+            "type": "Assault Rifle",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/assaultRifleBurst.png",
+            "information": [
+                {
+                    "damage": 29,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.75,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.7s",
+                    "ammoCost": 1,
+                    "impact": 42
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Burst",
+            "type": "Assault Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/assaultRifleBurst.png",
+            "information": [
+                {
+                    "damage": 30,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.75,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.6s",
+                    "ammoCost": 1,
+                    "impact": 44
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "M4",
+            "type": "Assault Rifle",
+            "itemRarity": "Common",
+            "img": "assets/weapons/assaultRifleM4.png",
+            "information": [
+                {
+                    "damage": 30,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 25
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "M4",
+            "type": "Assault Rifle",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/assaultRifleM4.png",
+            "information": [
+                {
+                    "damage": 31,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 27
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "M4",
+            "type": "Assault Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/assaultRifleM4.png",
+            "information": [
+                {
+                    "damage": 33,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 28
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "SCAR",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/assaultRifleScar.png",
+            "information": [
+                {
+                    "damage": 35,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.1s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "SCAR",
+            "type": "Assault Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/assaultRifleScar.png",
+            "information": [
+                {
+                    "damage": 36,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.1s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Scoped",
+            "type": "Assault Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/assaultRifleScoped.png",
+            "information": [
+                {
+                    "damage": 23,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 3.5,
+                    "magazineSize": 20,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 28
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Scoped",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/assaultRifleScoped.png",
+            "information": [
+                {
+                    "damage": 24,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 3.5,
+                    "magazineSize": 20,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Heavy Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/heavyAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 44,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 3.75,
+                    "magazineSize": 25,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.8s",
+                    "ammoCost": 1,
+                    "impact": 28
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Heavy Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/heavyAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 46,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 3.75,
+                    "magazineSize": 25,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.7s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Heavy Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/heavyAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 48,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 3.75,
+                    "magazineSize": 25,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.5s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Minigun",
+            "type": "Minigun",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/minigun.png",
+            "information": [
+                {
+                    "damage": 18,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 12,
+                    "magazineSize": 0,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.8s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Minigun",
+            "type": "Minigun",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/minigun.png",
+            "information": [
+                {
+                    "damage": 19,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 12,
+                    "magazineSize": 0,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.5s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Suppressed Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/suppressedAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 32,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Suppressed Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/suppressedAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 33,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5.5,
+                    "magazineSize": 30,
+                    "range": 10000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.1s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Thermal Scope Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/thermalScopeAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 36,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.8,
+                    "magazineSize": 15,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Thermal Scope Assault Rifle",
+            "type": "Assault Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/thermalScopeAssaultRifle.png",
+            "information": [
+                {
+                    "damage": 37,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.8,
+                    "magazineSize": 15,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.1s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Heavy Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/heavyShotgun.png",
+            "information": [
+                {
+                    "damage": 74,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 7,
+                    "range": 3072,
+                    "durabilty": "Infinite",
+                    "reloadTime": "5.9s",
+                    "ammoCost": 1,
+                    "impact": 52.5
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "name": "Heavy Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/heavyShotgun.png",
+            "information": [
+                {
+                    "damage": 77,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 7,
+                    "range": 3072,
+                    "durabilty": "Infinite",
+                    "reloadTime": "5.6s",
+                    "ammoCost": 1,
+                    "impact": 55
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "name": "Pump Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/pumpShotgun.png",
+            "information": [
+                {
+                    "damage": 95,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.7,
+                    "magazineSize": 5,
+                    "range": 1792,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.8s",
+                    "ammoCost": 1,
+                    "impact": 45
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "name": "Pump Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/pumpShotgun.png",
+            "information": [
+                {
+                    "damage": 100,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.7,
+                    "magazineSize": 5,
+                    "range": 1792,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.6s",
+                    "ammoCost": 1,
+                    "impact": 47.5
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "name": "Pump Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/pumpShotgun.png",
+            "information": [
+                {
+                    "damage": 105,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.7,
+                    "magazineSize": 5,
+                    "range": 1792,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.4s",
+                    "ammoCost": 1,
+                    "impact": 50
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Pump Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/pumpShotgun.png",
+            "information": [
+                {
+                    "damage": 110,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.7,
+                    "magazineSize": 5,
+                    "range": 1792,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.2s",
+                    "ammoCost": 1,
+                    "impact": 52.5
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "name": "Tactical Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Common",
+            "img": "assets/weapons/tacticalShotgun.png",
+            "information": [
+                {
+                    "damage": 67,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.5,
+                    "magazineSize": 8,
+                    "range": 3072,
+                    "durabilty": "Infinite",
+                    "reloadTime": "6.3s",
+                    "ammoCost": 1,
+                    "impact": 30.4
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "name": "Tactical Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/tacticalShotgun.png",
+            "information": [
+                {
+                    "damage": 70,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.5,
+                    "magazineSize": 8,
+                    "range": 3072,
+                    "durabilty": "Infinite",
+                    "reloadTime": "6s",
+                    "ammoCost": 1,
+                    "impact": 32
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "name": "Tactical Shotgun",
+            "type": "Shotgun",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/tacticalShotgun.png",
+            "information": [
+                {
+                    "damage": 74,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.5,
+                    "magazineSize": 8,
+                    "range": 3072,
+                    "durabilty": "Infinite",
+                    "reloadTime": "5.7s",
+                    "ammoCost": 1,
+                    "impact": 33.6
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "name": "Grappler",
+            "type": "Grappler",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/grappler.png",
+            "information": [
+                {
+                    "damage": 0,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 10,
+                    "range": 1200,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.3s",
+                    "ammoCost": 1,
+                    "impact": 55
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "name": "Hand Cannon",
+            "type": "Pistol",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/handCannon.png",
+            "information": [
+                {
+                    "damage": 75,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.8,
+                    "magazineSize": 7,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.1s",
+                    "ammoCost": 1,
+                    "impact": 158
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "name": "Hand Cannon",
+            "type": "Pistol",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/handCannon.png",
+            "information": [
+                {
+                    "damage": 78,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.8,
+                    "magazineSize": 7,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2s",
+                    "ammoCost": 1,
+                    "impact": 165
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "name": "Pistol",
+            "type": "Pistol",
+            "itemRarity": "Common",
+            "img": "assets/weapons/pistol.png",
+            "information": [
+                {
+                    "damage": 23,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 6.75,
+                    "magazineSize": 16,
+                    "range": 7000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.5s",
+                    "ammoCost": 1,
+                    "impact": 45
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "name": "Pistol",
+            "type": "Pistol",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/pistol.png",
+            "information": [
+                {
+                    "damage": 24,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 6.75,
+                    "magazineSize": 16,
+                    "range": 7000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.5s",
+                    "ammoCost": 1,
+                    "impact": 48
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Pistol",
+            "type": "Pistol",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/pistol.png",
+            "information": [
+                {
+                    "damage": 25,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 6.75,
+                    "magazineSize": 16,
+                    "range": 7000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.4s",
+                    "ammoCost": 1,
+                    "impact": 50
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Revolver",
+            "type": "Revolver",
+            "itemRarity": "Common",
+            "img": "assets/weapons/revolver.png",
+            "information": [
+                {
+                    "damage": 54,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.9,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.4s",
+                    "ammoCost": 1,
+                    "impact": 135
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "name": "Revolver",
+            "type": "Revolver",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/revolver.png",
+            "information": [
+                {
+                    "damage": 57,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.9,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 143
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "name": "Revolver",
+            "type": "Revolver",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/revolver.png",
+            "information": [
+                {
+                    "damage": 60,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.9,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 150
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "name": "Six Shooter",
+            "type": "Revolver",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/sixShooter.png",
+            "information": [
+                {
+                    "damage": 34,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.4s",
+                    "ammoCost": 1,
+                    "impact": 95
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "name": "Six Shooter",
+            "type": "Revolver",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/sixShooter.png",
+            "information": [
+                {
+                    "damage": 36,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 100
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "name": "Six Shooter",
+            "type": "Revolver",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/sixShooter.png",
+            "information": [
+                {
+                    "damage": 38,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 5,
+                    "magazineSize": 6,
+                    "range": 8500,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 105
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "name": "Supressed Pistol",
+            "type": "Pistol",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/suppressedPistol.png",
+            "information": [
+                {
+                    "damage": 26,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 6.75,
+                    "magazineSize": 16,
+                    "range": 7000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.3s",
+                    "ammoCost": 1,
+                    "impact": 53
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "name": "Supressed Pistol",
+            "type": "Pistol",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/suppressedPistol.png",
+            "information": [
+                {
+                    "damage": 28,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 6.75,
+                    "magazineSize": 16,
+                    "range": 7000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.3s",
+                    "ammoCost": 1,
+                    "impact": 55
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "name": "Compact Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Common",
+            "img": "assets/weapons/compactGun.png",
+            "information": [
+                {
+                    "damage": 17,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 10,
+                    "magazineSize": 40,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3.6s",
+                    "ammoCost": 1,
+                    "impact": 25
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "name": "Compact Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/compactGun.png",
+            "information": [
+                {
+                    "damage": 18,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 10,
+                    "magazineSize": 40,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3.5s",
+                    "ammoCost": 1,
+                    "impact": 27
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "name": "Compact Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/compactGun.png",
+            "information": [
+                {
+                    "damage": 19,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 10,
+                    "magazineSize": 40,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3.3s",
+                    "ammoCost": 1,
+                    "impact": 28
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "name": "Compact Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/compactGun.png",
+            "information": [
+                {
+                    "damage": 20,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 10,
+                    "magazineSize": 40,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3.1s",
+                    "ammoCost": 1,
+                    "impact": 29
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "name": "Compact Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/compactGun.png",
+            "information": [
+                {
+                    "damage": 21,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 10,
+                    "magazineSize": 40,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3s",
+                    "ammoCost": 1,
+                    "impact": 31
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "name": "Submachine Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Common",
+            "img": "assets/weapons/submachineGun.png",
+            "information": [
+                {
+                    "damage": 17,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 12,
+                    "magazineSize": 30,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.4s",
+                    "ammoCost": 1,
+                    "impact": 25
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "name": "Submachine Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/submachineGun.png",
+            "information": [
+                {
+                    "damage": 18,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 12,
+                    "magazineSize": 30,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.3s",
+                    "ammoCost": 1,
+                    "impact": 27
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "name": "Submachine Gun",
+            "type": "Submachine Gun",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/submachineGun.png",
+            "information": [
+                {
+                    "damage": 19,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 12,
+                    "magazineSize": 30,
+                    "range": 4000,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.2s",
+                    "ammoCost": 1,
+                    "impact": 28
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "name": "Bolt-Action Sniper Rifle",
+            "type": "Sniper Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/boltActionSniperRifle.png",
+            "information": [
+                {
+                    "damage": 105,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.33,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3s",
+                    "ammoCost": 1,
+                    "impact": 360
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "name": "Bolt-Action Sniper Rifle",
+            "type": "Sniper Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/boltActionSniperRifle.png",
+            "information": [
+                {
+                    "damage": 110,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.33,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.8s",
+                    "ammoCost": 1,
+                    "impact": 378
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "name": "Bolt-Action Sniper Rifle",
+            "type": "Sniper Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/boltActionSniperRifle.png",
+            "information": [
+                {
+                    "damage": 116,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.33,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.7s",
+                    "ammoCost": 1,
+                    "impact": 396
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "name": "Fiend Hunter Crossbow",
+            "type": "Crossbow",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/fiendHunterCrossbow.png",
+            "information": [
+                {
+                    "damage": 40,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1.8,
+                    "magazineSize": 7,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.5s",
+                    "ammoCost": 1,
+                    "impact": 105
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Heavy Sniper",
+            "type": "Sniper Rifle",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/heavySniper.png",
+            "information": [
+                {
+                    "damage": 150,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.33,
+                    "magazineSize": 7,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.3s",
+                    "ammoCost": 1,
+                    "impact": 378
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Heavy Sniper",
+            "type": "Sniper Rifle",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/heavySniper.png",
+            "information": [
+                {
+                    "damage": 157,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.33,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.1s",
+                    "ammoCost": 1,
+                    "impact": 396
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Hunting Rifle",
+            "type": "Sniper Rifle",
+            "itemRarity": "Uncommon",
+            "img": "assets/weapons/huntingRifle.png",
+            "information": [
+                {
+                    "damage": 86,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.8,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.9s",
+                    "ammoCost": 1,
+                    "impact": 285
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "name": "Hunting Rifle",
+            "type": "Sniper Rifle",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/huntingRifle.png",
+            "information": [
+                {
+                    "damage": 90,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.8,
+                    "magazineSize": 1,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "1.8s",
+                    "ammoCost": 1,
+                    "impact": 300
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "name": "Grenade Launcher",
+            "type": "Grenade Launcher",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/grenadeLauncher.png",
+            "information": [
+                {
+                    "damage": 100,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 6,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "3s",
+                    "ammoCost": 1,
+                    "impact": 750
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "name": "Grenade Launcher",
+            "type": "Grenade Launcher",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/grenadeLauncher.png",
+            "information": [
+                {
+                    "damage": 105,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 6,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.8s",
+                    "ammoCost": 1,
+                    "impact": 788
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "name": "Grenade Launcher",
+            "type": "Grenade Launcher",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/grenadeLauncher.png",
+            "information": [
+                {
+                    "damage": 110,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 6,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.7s",
+                    "ammoCost": 1,
+                    "impact": 825
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "name": "Quad Launcher",
+            "type": "Rocket Launcher",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/quadLauncher.png",
+            "information": [
+                {
+                    "damage": 80,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 4,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.8s",
+                    "ammoCost": 1,
+                    "impact": 2100
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "name": "Quad Launcher",
+            "type": "Rocket Launcher",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/quadLauncher.png",
+            "information": [
+                {
+                    "damage": 84,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 1,
+                    "magazineSize": 4,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "4.5s",
+                    "ammoCost": 1,
+                    "impact": 2200
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "name": "Rocket Launcher",
+            "type": "Rocket Launcher",
+            "itemRarity": "Rare",
+            "img": "assets/weapons/rocketLauncher.png",
+            "information": [
+                {
+                    "damage": 110,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.75,
+                    "magazineSize": 4,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.8s",
+                    "ammoCost": 1,
+                    "impact": 2000
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "name": "Rocket Launcher",
+            "type": "Rocket Launcher",
+            "itemRarity": "Epic",
+            "img": "assets/weapons/rocketLauncher.png",
+            "information": [
+                {
+                    "damage": 116,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.75,
+                    "magazineSize": 4,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.7s",
+                    "ammoCost": 1,
+                    "impact": 2100
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "name": "Rocket Launcher",
+            "type": "Rocket Launcher",
+            "itemRarity": "Legendary",
+            "img": "assets/weapons/rocketLauncher.png",
+            "information": [
+                {
+                    "damage": 121,
+                    "critialHitChance": "0%",
+                    "critialHitDamage": "0%",
+                    "fireRate": 0.75,
+                    "magazineSize": 4,
+                    "range": 1,
+                    "durabilty": "Infinite",
+                    "reloadTime": "2.5s",
+                    "ammoCost": 1,
+                    "impact": 2200
+                }
+            ]
         }
     ],
     "outfit": [
