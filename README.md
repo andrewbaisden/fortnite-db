@@ -1,2 +1,2 @@
-# fortnite-db
+# Fortnite db
 A Fortnite database app, for checking weapons and items.
