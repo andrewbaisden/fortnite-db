@@ -98,6 +98,15 @@ exports.findToysById = (id, cb) => {
   });
 }
 
+// Query API by weapons
+exports.filterWeapons = (type, cb) => {
+  getItemsFromFile(items => {
+    const item = items.weapon.filter(i => i.type === type);
+    
+    cb(item);
+  });
+}
+
 // Query API by weapon img
 exports.findWeaponByImg = (img, cb) => {
   getItemsFromFile(items => {
@@ -106,3 +115,4 @@ exports.findWeaponByImg = (img, cb) => {
     cb(item);
   });
 }
+

@@ -14,7 +14,8 @@ app.get('/items', (req, res) => {
 })
 
 // Item ID Routes
-app.get('/items/weapons/:itemId', itemController.getItemWeapon);
+app.get('/items/:itemId', itemController.getItemWeapons);
+app.get('/items/weapon/:itemId', itemController.getItemWeapon);
 app.get('/items/outfits/:itemId', itemController.getItemOutfit);
 app.get('/items/gliders/:itemId', itemController.getItemGlider);
 app.get('/items/backblings/:itemId', itemController.getItemBackBling);
@@ -26,7 +27,7 @@ app.get('/items/contrails/:itemId', itemController.getItemContrail);
 app.get('/items/toys/:itemId', itemController.getItemToys);
 
 // Item weapon img Routes
-app.get('/items/weapons/img/:itemImg', itemController.getItemWeaponImg);
+app.get('/items/weapon/img/:itemImg', itemController.getItemWeaponImg);
 
 app.use((req, res, next) => {
     res.status(404).send('404 Page Not Found')

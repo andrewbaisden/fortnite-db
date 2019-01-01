@@ -1,6 +1,21 @@
 const Item = require('../models/item');
 const path = require('path');
 
+exports.getItemWeapons = (req, res, next) => {
+    const itemId = req.params.itemId;
+    Item.filterWeapons(itemId, item => {
+        
+        if (item) {
+            console.log(item);
+            res.json(item);
+        } else if (!item) {
+            console.log('No ID found, redirecting back to items page')
+            res.redirect('/items')
+        }
+        
+      });
+}
+
 exports.getItemWeapon = (req, res, next) => {
     const itemId = req.params.itemId;
     Item.findWeaponById(itemId, item => {

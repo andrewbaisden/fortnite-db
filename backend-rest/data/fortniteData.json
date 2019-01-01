@@ -3,7 +3,8 @@
         {
             "id": "1",
             "name": "Burst Rare",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "assaultRifleBurstRare.png",
             "information": [
@@ -24,7 +25,8 @@
         {
             "id": "2",
             "name": "Burst Rare",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
             "img": "assaultRifleBurstRare.png",
             "information": [
@@ -45,7 +47,8 @@
         {
             "id": "3",
             "name": "Burst",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Common",
             "img": "assaultRifleBurst.png",
             "information": [
@@ -66,7 +69,8 @@
         {
             "id": "4",
             "name": "Burst",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Uncommon",
             "img": "assaultRifleBurst.png",
             "information": [
@@ -87,7 +91,8 @@
         {
             "id": "5",
             "name": "Burst",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
             "img": "assaultRifleBurst.png",
             "information": [
@@ -108,7 +113,8 @@
         {
             "id": "6",
             "name": "M4",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Common",
             "img": "assaultRifleM4.png",
             "information": [
@@ -129,7 +135,8 @@
         {
             "id": "7",
             "name": "M4",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Uncommon",
             "img": "assaultRifleM4.png",
             "information": [
@@ -150,7 +157,8 @@
         {
             "id": "8",
             "name": "M4",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
             "img": "assaultRifleM4.png",
             "information": [
@@ -171,7 +179,8 @@
         {
             "id": "8",
             "name": "SCAR",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "assaultRifleScar.png",
             "information": [
@@ -192,7 +201,8 @@
         {
             "id": "9",
             "name": "SCAR",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
             "img": "assaultRifleScar.png",
             "information": [
@@ -213,7 +223,8 @@
         {
             "id": "10",
             "name": "Scoped",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
             "img": "assaultRifleScoped.png",
             "information": [
@@ -234,7 +245,8 @@
         {
             "id": "11",
             "name": "Scoped",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "assaultRifleScoped.png",
             "information": [
@@ -255,7 +267,8 @@
         {
             "id": "11",
             "name": "Heavy Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
             "img": "heavyAssaultRifle.png",
             "information": [
@@ -276,7 +289,8 @@
         {
             "id": "12",
             "name": "Heavy Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "heavyAssaultRifle.png",
             "information": [
@@ -297,7 +311,8 @@
         {
             "id": "13",
             "name": "Heavy Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
             "img": "heavyAssaultRifle.png",
             "information": [
@@ -318,7 +333,8 @@
         {
             "id": "14",
             "name": "Minigun",
-            "type": "Minigun",
+            "type": "weapon",
+            "weaponType": "Minigun",
             "itemRarity": "Epic",
             "img": "minigun.png",
             "information": [
@@ -339,7 +355,8 @@
         {
             "id": "15",
             "name": "Minigun",
-            "type": "Minigun",
+            "type": "weapon",
+            "weaponType": "Minigun",
             "itemRarity": "Legendary",
             "img": "minigun.png",
             "information": [
@@ -360,7 +377,8 @@
         {
             "id": "16",
             "name": "Suppressed Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "suppressedAssaultRifle.png",
             "information": [
@@ -381,7 +399,8 @@
         {
             "id": "17",
             "name": "Suppressed Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
             "img": "suppressedAssaultRifle.png",
             "information": [
@@ -402,7 +421,8 @@
         {
             "id": "18",
             "name": "Thermal Scope Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
             "img": "thermalScopeAssaultRifle.png",
             "information": [
@@ -423,7 +443,8 @@
         {
             "id": "19",
             "name": "Thermal Scope Assault Rifle",
-            "type": "Assault Rifle",
+            "type": "weapon",
+            "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
             "img": "thermalScopeAssaultRifle.png",
             "information": [
@@ -444,7 +465,8 @@
         {
             "id": "20",
             "name": "Heavy Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Epic",
             "img": "heavyShotgun.png",
             "information": [
@@ -465,7 +487,8 @@
         {
             "id": "21",
             "name": "Heavy Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Legendary",
             "img": "heavyShotgun.png",
             "information": [
@@ -486,7 +509,8 @@
         {
             "id": "22",
             "name": "Pump Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Uncommon",
             "img": "pumpShotgun.png",
             "information": [
@@ -507,7 +531,8 @@
         {
             "id": "23",
             "name": "Pump Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Rare",
             "img": "pumpShotgun.png",
             "information": [
@@ -528,7 +553,8 @@
         {
             "id": "24",
             "name": "Pump Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Epic",
             "img": "pumpShotgun.png",
             "information": [
@@ -549,7 +575,8 @@
         {
             "id": "25",
             "name": "Pump Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Legendary",
             "img": "pumpShotgun.png",
             "information": [
@@ -570,7 +597,8 @@
         {
             "id": "26",
             "name": "Tactical Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Common",
             "img": "tacticalShotgun.png",
             "information": [
@@ -591,7 +619,8 @@
         {
             "id": "27",
             "name": "Tactical Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Uncommon",
             "img": "tacticalShotgun.png",
             "information": [
@@ -612,7 +641,8 @@
         {
             "id": "28",
             "name": "Tactical Shotgun",
-            "type": "Shotgun",
+            "type": "weapon",
+            "weaponType": "Shotgun",
             "itemRarity": "Rare",
             "img": "tacticalShotgun.png",
             "information": [
@@ -633,7 +663,8 @@
         {
             "id": "29",
             "name": "Grappler",
-            "type": "Grappler",
+            "type": "weapon",
+            "weaponType": "Grappler",
             "itemRarity": "Legendary",
             "img": "grappler.png",
             "information": [
@@ -654,7 +685,8 @@
         {
             "id": "30",
             "name": "Hand Cannon",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Epic",
             "img": "handCannon.png",
             "information": [
@@ -675,7 +707,8 @@
         {
             "id": "31",
             "name": "Hand Cannon",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Legendary",
             "img": "handCannon.png",
             "information": [
@@ -696,7 +729,8 @@
         {
             "id": "32",
             "name": "Pistol",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Common",
             "img": "pistol.png",
             "information": [
@@ -717,7 +751,8 @@
         {
             "id": "33",
             "name": "Pistol",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Uncommon",
             "img": "pistol.png",
             "information": [
@@ -738,7 +773,8 @@
         {
             "id": "34",
             "name": "Pistol",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Rare",
             "img": "pistol.png",
             "information": [
@@ -759,7 +795,8 @@
         {
             "id": "34",
             "name": "Revolver",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Common",
             "img": "revolver.png",
             "information": [
@@ -780,7 +817,8 @@
         {
             "id": "35",
             "name": "Revolver",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Uncommon",
             "img": "revolver.png",
             "information": [
@@ -801,7 +839,8 @@
         {
             "id": "36",
             "name": "Revolver",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Rare",
             "img": "revolver.png",
             "information": [
@@ -822,7 +861,8 @@
         {
             "id": "37",
             "name": "Six Shooter",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Uncommon",
             "img": "sixShooter.png",
             "information": [
@@ -843,7 +883,8 @@
         {
             "id": "38",
             "name": "Six Shooter",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Rare",
             "img": "sixShooter.png",
             "information": [
@@ -864,7 +905,8 @@
         {
             "id": "39",
             "name": "Six Shooter",
-            "type": "Revolver",
+            "type": "weapon",
+            "weaponType": "Revolver",
             "itemRarity": "Epic",
             "img": "sixShooter.png",
             "information": [
@@ -885,7 +927,8 @@
         {
             "id": "40",
             "name": "Supressed Pistol",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Epic",
             "img": "suppressedPistol.png",
             "information": [
@@ -906,7 +949,8 @@
         {
             "id": "41",
             "name": "Supressed Pistol",
-            "type": "Pistol",
+            "type": "weapon",
+            "weaponType": "Pistol",
             "itemRarity": "Legendary",
             "img": "suppressedPistol.png",
             "information": [
@@ -927,7 +971,8 @@
         {
             "id": "43",
             "name": "Compact Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Common",
             "img": "compactGun.png",
             "information": [
@@ -948,7 +993,8 @@
         {
             "id": "44",
             "name": "Compact Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Uncommon",
             "img": "compactGun.png",
             "information": [
@@ -969,7 +1015,8 @@
         {
             "id": "45",
             "name": "Compact Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Rare",
             "img": "compactGun.png",
             "information": [
@@ -990,7 +1037,8 @@
         {
             "id": "46",
             "name": "Compact Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Epic",
             "img": "compactGun.png",
             "information": [
@@ -1011,7 +1059,8 @@
         {
             "id": "47",
             "name": "Compact Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Legendary",
             "img": "compactGun.png",
             "information": [
@@ -1032,7 +1081,8 @@
         {
             "id": "48",
             "name": "Submachine Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Common",
             "img": "submachineGun.png",
             "information": [
@@ -1053,7 +1103,8 @@
         {
             "id": "49",
             "name": "Submachine Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Uncommon",
             "img": "submachineGun.png",
             "information": [
@@ -1074,7 +1125,8 @@
         {
             "id": "50",
             "name": "Submachine Gun",
-            "type": "Submachine Gun",
+            "type": "weapon",
+            "weaponType": "Submachine Gun",
             "itemRarity": "Rare",
             "img": "submachineGun.png",
             "information": [
@@ -1095,7 +1147,8 @@
         {
             "id": "51",
             "name": "Bolt-Action Sniper Rifle",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Rare",
             "img": "boltActionSniperRifle.png",
             "information": [
@@ -1116,7 +1169,8 @@
         {
             "id": "52",
             "name": "Bolt-Action Sniper Rifle",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Epic",
             "img": "boltActionSniperRifle.png",
             "information": [
@@ -1137,7 +1191,8 @@
         {
             "id": "53",
             "name": "Bolt-Action Sniper Rifle",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Legendary",
             "img": "boltActionSniperRifle.png",
             "information": [
@@ -1158,7 +1213,8 @@
         {
             "id": "54",
             "name": "Fiend Hunter Crossbow",
-            "type": "Crossbow",
+            "type": "weapon",
+            "weaponType": "Crossbow",
             "itemRarity": "Epic",
             "img": "fiendHunterCrossbow.png",
             "information": [
@@ -1179,7 +1235,8 @@
         {
             "id": "55",
             "name": "Heavy Sniper",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Epic",
             "img": "heavySniper.png",
             "information": [
@@ -1200,7 +1257,8 @@
         {
             "id": "55",
             "name": "Heavy Sniper",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Legendary",
             "img": "heavySniper.png",
             "information": [
@@ -1221,7 +1279,8 @@
         {
             "id": "55",
             "name": "Hunting Rifle",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Uncommon",
             "img": "huntingRifle.png",
             "information": [
@@ -1242,7 +1301,8 @@
         {
             "id": "56",
             "name": "Hunting Rifle",
-            "type": "Sniper Rifle",
+            "type": "weapon",
+            "weaponType": "Sniper Rifle",
             "itemRarity": "Rare",
             "img": "huntingRifle.png",
             "information": [
@@ -1263,7 +1323,8 @@
         {
             "id": "57",
             "name": "Grenade Launcher",
-            "type": "Grenade Launcher",
+            "type": "weapon",
+            "weaponType": "Grenade Launcher",
             "itemRarity": "Rare",
             "img": "grenadeLauncher.png",
             "information": [
@@ -1284,7 +1345,8 @@
         {
             "id": "58",
             "name": "Grenade Launcher",
-            "type": "Grenade Launcher",
+            "type": "weapon",
+            "weaponType": "Grenade Launcher",
             "itemRarity": "Epic",
             "img": "grenadeLauncher.png",
             "information": [
@@ -1305,7 +1367,8 @@
         {
             "id": "59",
             "name": "Grenade Launcher",
-            "type": "Grenade Launcher",
+            "type": "weapon",
+            "weaponType": "Grenade Launcher",
             "itemRarity": "Legendary",
             "img": "grenadeLauncher.png",
             "information": [
@@ -1326,7 +1389,8 @@
         {
             "id": "60",
             "name": "Quad Launcher",
-            "type": "Rocket Launcher",
+            "type": "weapon",
+            "weaponType": "Rocket Launcher",
             "itemRarity": "Epic",
             "img": "quadLauncher.png",
             "information": [
@@ -1347,7 +1411,8 @@
         {
             "id": "61",
             "name": "Quad Launcher",
-            "type": "Rocket Launcher",
+            "type": "weapon",
+            "weaponType": "Rocket Launcher",
             "itemRarity": "Legendary",
             "img": "quadLauncher.png",
             "information": [
@@ -1368,7 +1433,8 @@
         {
             "id": "62",
             "name": "Rocket Launcher",
-            "type": "Rocket Launcher",
+            "type": "weapon",
+            "weaponType": "Rocket Launcher",
             "itemRarity": "Rare",
             "img": "rocketLauncher.png",
             "information": [
@@ -1389,7 +1455,8 @@
         {
             "id": "63",
             "name": "Rocket Launcher",
-            "type": "Rocket Launcher",
+            "type": "weapon",
+            "weaponType": "Rocket Launcher",
             "itemRarity": "Epic",
             "img": "rocketLauncher.png",
             "information": [
@@ -1410,7 +1477,8 @@
         {
             "id": "64",
             "name": "Rocket Launcher",
-            "type": "Rocket Launcher",
+            "type": "weapon",
+            "weaponType": "Rocket Launcher",
             "itemRarity": "Legendary",
             "img": "rocketLauncher.png",
             "information": [

@@ -1,0 +1,12 @@
+type Query {
+    fortniteweapons(query: String): [Weapon!]!
+}
+
+type Weapon {
+    id: ID!
+    name: String!
+    type: String!
+    weaponType: String!
+    itemRarity: String!
+    img: String!
+}
