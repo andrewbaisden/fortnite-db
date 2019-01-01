@@ -98,19 +98,10 @@ exports.findToysById = (id, cb) => {
   });
 }
 
-// Query API by type
-exports.findByType = (type, cb) => {
+// Query API by weapon img
+exports.findWeaponByImg = (img, cb) => {
   getItemsFromFile(items => {
-    const item = items.find(i => i.type === type);
-    
-    cb(item);
-  });
-}
-
-// Query API by rarity
-exports.findByRarity = (itemRarity, cb) => {
-  getItemsFromFile(items => {
-    const item = items.find(i => i.itemRarity === itemRarity);
+    const item = items.weapon.find(i => i.img === img);
     
     cb(item);
   });

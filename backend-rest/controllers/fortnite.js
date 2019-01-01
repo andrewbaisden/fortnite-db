@@ -1,4 +1,5 @@
 const Item = require('../models/item');
+const path = require('path');
 
 exports.getItemWeapon = (req, res, next) => {
     const itemId = req.params.itemId;
@@ -144,6 +145,22 @@ exports.getItemToys = (req, res, next) => {
             res.json(item);
         } else if (!item) {
             console.log('No ID found, redirecting back to items page')
+            res.redirect('/items')
+        }
+        
+      });
+}
+
+exports.getItemWeaponImg = (req, res, next) => {
+    const itemImg = req.params.itemImg;
+    Item.findWeaponByImg(itemImg, item => {
+        
+        if (item) {
+            console.log(item);
+            //res.json(item);
+            res.sendFile(path.join(__dirname+`/assets/weapons/${item.img}`));
+        } else if (!item) {
+            console.log('No Image found, redirecting back to items page')
             res.redirect('/items')
         }
         
