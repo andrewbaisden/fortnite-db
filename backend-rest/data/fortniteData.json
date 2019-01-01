@@ -177,7 +177,7 @@
             ]
         },
         {
-            "id": "8",
+            "id": "9",
             "name": "SCAR",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -199,7 +199,7 @@
             ]
         },
         {
-            "id": "9",
+            "id": "10",
             "name": "SCAR",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -221,7 +221,7 @@
             ]
         },
         {
-            "id": "10",
+            "id": "11",
             "name": "Scoped",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "id": "11",
+            "id": "12",
             "name": "Scoped",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -265,7 +265,7 @@
             ]
         },
         {
-            "id": "11",
+            "id": "13",
             "name": "Heavy Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -287,7 +287,7 @@
             ]
         },
         {
-            "id": "12",
+            "id": "14",
             "name": "Heavy Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -309,7 +309,7 @@
             ]
         },
         {
-            "id": "13",
+            "id": "15",
             "name": "Heavy Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -331,7 +331,7 @@
             ]
         },
         {
-            "id": "14",
+            "id": "16",
             "name": "Minigun",
             "type": "weapon",
             "weaponType": "Minigun",
@@ -353,7 +353,7 @@
             ]
         },
         {
-            "id": "15",
+            "id": "17",
             "name": "Minigun",
             "type": "weapon",
             "weaponType": "Minigun",
@@ -375,7 +375,7 @@
             ]
         },
         {
-            "id": "16",
+            "id": "18",
             "name": "Suppressed Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -397,7 +397,7 @@
             ]
         },
         {
-            "id": "17",
+            "id": "19",
             "name": "Suppressed Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -419,7 +419,7 @@
             ]
         },
         {
-            "id": "18",
+            "id": "20",
             "name": "Thermal Scope Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -441,7 +441,7 @@
             ]
         },
         {
-            "id": "19",
+            "id": "21",
             "name": "Thermal Scope Assault Rifle",
             "type": "weapon",
             "weaponType": "Assault Rifle",
@@ -463,7 +463,7 @@
             ]
         },
         {
-            "id": "20",
+            "id": "22",
             "name": "Heavy Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -485,7 +485,7 @@
             ]
         },
         {
-            "id": "21",
+            "id": "23",
             "name": "Heavy Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -507,7 +507,7 @@
             ]
         },
         {
-            "id": "22",
+            "id": "24",
             "name": "Pump Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -529,7 +529,7 @@
             ]
         },
         {
-            "id": "23",
+            "id": "25",
             "name": "Pump Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -551,7 +551,7 @@
             ]
         },
         {
-            "id": "24",
+            "id": "26",
             "name": "Pump Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -573,7 +573,7 @@
             ]
         },
         {
-            "id": "25",
+            "id": "27",
             "name": "Pump Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -595,7 +595,7 @@
             ]
         },
         {
-            "id": "26",
+            "id": "28",
             "name": "Tactical Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -617,7 +617,7 @@
             ]
         },
         {
-            "id": "27",
+            "id": "29",
             "name": "Tactical Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -639,7 +639,7 @@
             ]
         },
         {
-            "id": "28",
+            "id": "30",
             "name": "Tactical Shotgun",
             "type": "weapon",
             "weaponType": "Shotgun",
@@ -661,7 +661,7 @@
             ]
         },
         {
-            "id": "29",
+            "id": "31",
             "name": "Grappler",
             "type": "weapon",
             "weaponType": "Grappler",
@@ -683,7 +683,7 @@
             ]
         },
         {
-            "id": "30",
+            "id": "32",
             "name": "Hand Cannon",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -705,7 +705,7 @@
             ]
         },
         {
-            "id": "31",
+            "id": "33",
             "name": "Hand Cannon",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -727,7 +727,7 @@
             ]
         },
         {
-            "id": "32",
+            "id": "34",
             "name": "Pistol",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -749,7 +749,7 @@
             ]
         },
         {
-            "id": "33",
+            "id": "35",
             "name": "Pistol",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -771,7 +771,7 @@
             ]
         },
         {
-            "id": "34",
+            "id": "36",
             "name": "Pistol",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -793,7 +793,7 @@
             ]
         },
         {
-            "id": "34",
+            "id": "37",
             "name": "Revolver",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -815,7 +815,7 @@
             ]
         },
         {
-            "id": "35",
+            "id": "38",
             "name": "Revolver",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -837,7 +837,7 @@
             ]
         },
         {
-            "id": "36",
+            "id": "39",
             "name": "Revolver",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -859,7 +859,7 @@
             ]
         },
         {
-            "id": "37",
+            "id": "40",
             "name": "Six Shooter",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -881,7 +881,7 @@
             ]
         },
         {
-            "id": "38",
+            "id": "41",
             "name": "Six Shooter",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -903,7 +903,7 @@
             ]
         },
         {
-            "id": "39",
+            "id": "42",
             "name": "Six Shooter",
             "type": "weapon",
             "weaponType": "Revolver",
@@ -925,7 +925,7 @@
             ]
         },
         {
-            "id": "40",
+            "id": "43",
             "name": "Supressed Pistol",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -947,7 +947,7 @@
             ]
         },
         {
-            "id": "41",
+            "id": "44",
             "name": "Supressed Pistol",
             "type": "weapon",
             "weaponType": "Pistol",
@@ -969,7 +969,7 @@
             ]
         },
         {
-            "id": "43",
+            "id": "45",
             "name": "Compact Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -991,7 +991,7 @@
             ]
         },
         {
-            "id": "44",
+            "id": "46",
             "name": "Compact Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1013,7 +1013,7 @@
             ]
         },
         {
-            "id": "45",
+            "id": "47",
             "name": "Compact Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1035,7 +1035,7 @@
             ]
         },
         {
-            "id": "46",
+            "id": "48",
             "name": "Compact Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1057,7 +1057,7 @@
             ]
         },
         {
-            "id": "47",
+            "id": "49",
             "name": "Compact Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1079,7 +1079,7 @@
             ]
         },
         {
-            "id": "48",
+            "id": "50",
             "name": "Submachine Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1101,7 +1101,7 @@
             ]
         },
         {
-            "id": "49",
+            "id": "51",
             "name": "Submachine Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1123,7 +1123,7 @@
             ]
         },
         {
-            "id": "50",
+            "id": "52",
             "name": "Submachine Gun",
             "type": "weapon",
             "weaponType": "Submachine Gun",
@@ -1145,7 +1145,7 @@
             ]
         },
         {
-            "id": "51",
+            "id": "53",
             "name": "Bolt-Action Sniper Rifle",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1167,7 +1167,7 @@
             ]
         },
         {
-            "id": "52",
+            "id": "54",
             "name": "Bolt-Action Sniper Rifle",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1189,7 +1189,7 @@
             ]
         },
         {
-            "id": "53",
+            "id": "55",
             "name": "Bolt-Action Sniper Rifle",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1211,7 +1211,7 @@
             ]
         },
         {
-            "id": "54",
+            "id": "56",
             "name": "Fiend Hunter Crossbow",
             "type": "weapon",
             "weaponType": "Crossbow",
@@ -1233,7 +1233,7 @@
             ]
         },
         {
-            "id": "55",
+            "id": "57",
             "name": "Heavy Sniper",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1255,7 +1255,7 @@
             ]
         },
         {
-            "id": "55",
+            "id": "58",
             "name": "Heavy Sniper",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1277,7 +1277,7 @@
             ]
         },
         {
-            "id": "55",
+            "id": "59",
             "name": "Hunting Rifle",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1299,7 +1299,7 @@
             ]
         },
         {
-            "id": "56",
+            "id": "60",
             "name": "Hunting Rifle",
             "type": "weapon",
             "weaponType": "Sniper Rifle",
@@ -1321,7 +1321,7 @@
             ]
         },
         {
-            "id": "57",
+            "id": "61",
             "name": "Grenade Launcher",
             "type": "weapon",
             "weaponType": "Grenade Launcher",
@@ -1343,7 +1343,7 @@
             ]
         },
         {
-            "id": "58",
+            "id": "62",
             "name": "Grenade Launcher",
             "type": "weapon",
             "weaponType": "Grenade Launcher",
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "id": "59",
+            "id": "63",
             "name": "Grenade Launcher",
             "type": "weapon",
             "weaponType": "Grenade Launcher",
@@ -1387,7 +1387,7 @@
             ]
         },
         {
-            "id": "60",
+            "id": "64",
             "name": "Quad Launcher",
             "type": "weapon",
             "weaponType": "Rocket Launcher",
@@ -1409,7 +1409,7 @@
             ]
         },
         {
-            "id": "61",
+            "id": "65",
             "name": "Quad Launcher",
             "type": "weapon",
             "weaponType": "Rocket Launcher",
@@ -1431,7 +1431,7 @@
             ]
         },
         {
-            "id": "62",
+            "id": "66",
             "name": "Rocket Launcher",
             "type": "weapon",
             "weaponType": "Rocket Launcher",
@@ -1453,7 +1453,7 @@
             ]
         },
         {
-            "id": "63",
+            "id": "67",
             "name": "Rocket Launcher",
             "type": "weapon",
             "weaponType": "Rocket Launcher",
@@ -1475,7 +1475,7 @@
             ]
         },
         {
-            "id": "64",
+            "id": "68",
             "name": "Rocket Launcher",
             "type": "weapon",
             "weaponType": "Rocket Launcher",
