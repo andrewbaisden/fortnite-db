@@ -1,5 +1,8 @@
 type Query {
-    fortniteweapons(query: String): [Weapon!]!
+    fortniteweaponsfiltername(query: String): [Weapon!]!
+    fortniteweaponsfiltertype(query: String): [Weapon!]!
+    fortniteweaponsfilterweapontype(query: String): [Weapon!]!
+    fortniteweaponsfilterweaponitemrarity(query: String): [Weapon!]!
 }
 
 type Weapon {
