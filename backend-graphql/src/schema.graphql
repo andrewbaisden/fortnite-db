@@ -9,4 +9,18 @@ type Weapon {
     weaponType: String!
     itemRarity: String!
     img: String!
+    information: [Info!]!
+}
+
+type Info {
+    damage: Int!
+    critialHitChance: String!
+    critialHitDamage: String!
+    fireRate: Float!
+    magazineSize: Int!
+    range: Int!
+    durabilty: String!
+    reloadTime: String!
+    ammoCost: Int!
+    impact: Float!
 }
