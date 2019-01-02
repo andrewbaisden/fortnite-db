@@ -47,18 +47,20 @@ const GlobalStyle = createGlobalStyle`
     .weapon-container {
         margin-top: 20px;
         display: grid;
-        grid-template-columns: 1fr 6fr;
+        grid-template-columns: 1fr;
         grid-gap: 20px;
-        justify-items: center;
+        /* justify-items: center; */
     }
     .weapon-list-container {
+        margin: 0 auto;
         margin-top: 20px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
     }
     .weapon {
         cursor: pointer;
+        width: 304px;
     }
     .Common, .Uncommon, .Rare, .Epic, .Legendary {
         width: 300px;
@@ -83,16 +85,132 @@ const GlobalStyle = createGlobalStyle`
         border-bottom: 2px solid #9b9b9b;
         border-left: 2px solid #9b9b9b;
     }
+    .Uncommon {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ab866+0,29b864+100 */
+        background: #2ab866; /* Old browsers */
+        background: -moz-linear-gradient(top, #2ab866 0%, #29b864 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #2ab866 0%,#29b864 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #2ab866 0%,#29b864 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab866', endColorstr='#29b864',GradientType=0 ); /* IE6-9 */
+        border-top: 2px solid #37F237;
+        border-right: 2px solid #37F237;
+        border-bottom: 2px solid #229626;
+        border-left: 2px solid #229626;
+    }
+    .Rare {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2cc3fb+0,2cc3fb+100 */
+        background: #2cc3fb; /* Old browsers */
+        background: -moz-linear-gradient(top, #2cc3fb 0%, #2cc3fb 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #2cc3fb 0%,#2cc3fb 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #2cc3fb 0%,#2cc3fb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cc3fb', endColorstr='#2cc3fb',GradientType=0 ); /* IE6-9 */
+
+        border-top: 2px solid #2DF4FF;
+        border-right: 2px solid #2DF4FF;
+        border-bottom: 2px solid #1F78AF;
+        border-left: 2px solid #1F78AF;
+    }
+    .Epic {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b647ef+0,b647ef+100 */
+        background: #b647ef; /* Old browsers */
+        background: -moz-linear-gradient(top, #b647ef 0%, #b647ef 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #b647ef 0%,#b647ef 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #b647ef 0%,#b647ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b647ef', endColorstr='#b647ef',GradientType=0 ); /* IE6-9 */
+        border-top: 2px solid #E44CFF;
+        border-right: 2px solid #E44CFF;
+        border-bottom: 2px solid #953DCC;
+        border-left: 2px solid #953DCC;
+    }
+    .Legendary {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9925d+0,e9925d+100 */
+        background: #e9925d; /* Old browsers */
+        background: -moz-linear-gradient(top, #e9925d 0%, #e9925d 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #e9925d 0%,#e9925d 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #e9925d 0%,#e9925d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9925d', endColorstr='#e9925d',GradientType=0 ); /* IE6-9 */
+        border-top: 2px solid #FFAF66;
+        border-right: 2px solid #FFAF66;
+        border-bottom: 2px solid #CC7949;
+        border-left: 2px solid #CC7949;
+    }
     .weapon-description {
         color: #ffffff;
         text-transform: uppercase;
         background: #2A2A2A;
         padding: 10px;
         font-weight: bold;
+        width: 285px;
+        height: 40px;
 
         h1, p {
             margin: 0;
             font-size: 1.4rem;
+        }
+    }
+    .weapon-container-information {
+        background: rgba(20, 21, 55, 0.4);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+    .weapon-image-container {
+        display: grid;
+        justify-content: end;
+    }
+    .weapon-information {
+        display: grid;
+        justify-content: start;
+        color: #ffffff;
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.8rem;
+
+            li {
+                display: grid;
+                justify-items: center;
+                justify-content: center;
+                padding: 10px;
+            }
+            li:nth-child(1) {
+                background: #141537;
+            }
+            li:nth-child(2) {
+                background: #101135;
+            }
+            li:nth-child(3) {
+                background: #141537;
+            }
+            li:nth-child(4) {
+                background: #101135;
+            }
+            li:nth-child(5) {
+                background: #141537;
+            }
+            li:nth-child(6) {
+                background: #101135;
+            }
+            li:nth-child(7) {
+                background: #141537;
+            }
+            li:nth-child(8) {
+                background: #101135;
+            }
+            li:nth-child(9) {
+                background: #141537;
+            }
+            li:nth-child(10) {
+                background: #101135;
+            }
         }
     }
 `
@@ -194,6 +312,22 @@ filterWeaponNames(filterWeaponName){
            this.setState({data: output, selectedWeapon: null})
            console.log(filterWeaponName, output)
 }
+filterWeaponRarity(filterWeaponRarity){
+    let filterWeaponRaritys = this.props.weapons.map(w => w);
+     filterWeaponRaritys = this.props.weapons.filter(w => w.itemRarity === filterWeaponRarity)
+
+                const output = filterWeaponRaritys.map(({id, name, weaponType, itemRarity, img, information}) => (
+                    <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                    <div className="weapon-description">
+                        <h1>{name}</h1>
+                        <p>{itemRarity}</p>
+                    </div>
+                </div>
+                ));
+           this.setState({data: output, selectedWeapon: null})
+           console.log(filterWeaponRarity, output)
+}
 menuButtonHover(){
     const btnArray = Array.from(document.querySelectorAll('.btn-menu'));
     console.log(btnArray)
@@ -227,6 +361,11 @@ menuButtonHover(){
                 <div className="btn-menu-container">
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsAscending}>Ascending</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsDescending}>Descending</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Common')}>Common</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Uncommon')}>Uncommon</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Rare')}>Rare</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Epic')}>Epic</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Legendary')}>Legendary</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Bolt-Action Sniper Rifle')}>Bolt-Action Sniper Rifle</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Burst')}>Burst</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Burst Rare')}>Burst Rare</MenuBtn>

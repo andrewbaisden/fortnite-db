@@ -7,13 +7,16 @@ const Weapon = ({objWeapon}) => {
     return <div>
         
         <div className="weapon-container-information">
-        
+
+            <div className="weapon-image-container">
             <div className={objWeapon.itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={objWeapon.name} /></div>
             <div className="weapon-description">
                 <h1>{objWeapon.name}</h1>
                 <p>{objWeapon.itemRarity}</p>
             </div>
+            </div>
             <div className="weapon-information">
+            <h1>Weapon Information</h1>
                 <ul>
                     <li>Damage: {objWeapon.information[0].damage}</li>
                     <li>Critical Hit Chance: {objWeapon.information[0].critialHitChance}</li>
