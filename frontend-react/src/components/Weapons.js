@@ -1,10 +1,30 @@
 import React, { Component } from 'react';
 import Weapon from './Weapon';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
+import bg from '../assets/bg.jpg';
+import fortniteLogo from '../assets/fortniteLogo.png';
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: #bada55;
+        background-image: url(${bg});
+    }
+    .container {
+        width: 100%;
+        /* max-width: 1680px; */
+        margin: 0 auto;
+    }
+    .header {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141535+0,141537+100 */
+        background: #141535; /* Old browsers */
+        background: -moz-linear-gradient(top, #141535 0%, #141537 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #141535 0%,#141537 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #141535 0%,#141537 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141535', endColorstr='#141537',GradientType=0 ); /* IE6-9 */
+        height: 200px;
+        width: 100%;
+    }
+    .header img {
+        height: 200px;
     }
 `
 class Weapons extends Component {
@@ -31,7 +51,7 @@ class Weapons extends Component {
     getAllWeapons(){
              const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                        <div className={itemRarity}><img src={img} alt={name} /></div>
+                        <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
                             <p>{itemRarity}</p>
@@ -47,7 +67,7 @@ class Weapons extends Component {
     
                     const output = ascending.map(({id, name, weaponType, itemRarity, img, information}) => (
                         <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                        <div className={itemRarity}><img src={img} alt={name} /></div>
+                        <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
                             <p>{itemRarity}</p>
@@ -63,7 +83,7 @@ sortWeaponsDescending(){
 
                 const output = descending.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                    <div className={itemRarity}><img src={img} alt={name} /></div>
+                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
                         <p>{itemRarity}</p>
@@ -79,7 +99,7 @@ filterWeaponNames(filterWeaponName){
 
                 const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                    <div className={itemRarity}><img src={img} alt={name} /></div>
+                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
                         <p>{itemRarity}</p>
@@ -93,8 +113,15 @@ filterWeaponNames(filterWeaponName){
         return(
             <div>
                 <GlobalStyle />
+                <div className="container">
+                <div className="header">
+                    <div>
+                        <img src={fortniteLogo} alt="Fortnite Logo" /> 
+                    </div>
+                    <div>
+                    </div>
+                </div>
                 <div>
-                <h1>Fortnite Weapons</h1>
                 <button onClick={this.sortWeaponsAscending}>Ascending</button>
                 <button onClick={this.sortWeaponsDescending}>Descending</button>
                 <button onClick={(filterWeaponName) => this.filterWeaponNames('Bolt-Action Sniper Rifle')}>Bolt-Action Sniper Rifle</button>
@@ -124,6 +151,7 @@ filterWeaponNames(filterWeaponName){
                 <button onClick={(filterWeaponName) => this.filterWeaponNames('Supressed Pistol')}>Supressed Pistol</button>
                 <button onClick={(filterWeaponName) => this.filterWeaponNames('Tactical Shotgun')}>Tactical Shotgun</button>
                 <button onClick={(filterWeaponName) => this.filterWeaponNames('Thermal Scope Assault Rifle')}>Thermal Scope Assault Rifle</button>
+                </div>
                 <div>
                     {this.state.data}
                 </div>
