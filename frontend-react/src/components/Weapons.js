@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Weapon from './Weapon';
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import bg from '../assets/bg.jpg';
 import fortniteLogo from '../assets/fortniteLogo.png';
 
@@ -68,7 +68,7 @@ const GlobalStyle = createGlobalStyle`
         justify-content: center;
 
         img {
-            max-width: 150px;
+            max-width: 200px;
             width: 100%;
             
         }
@@ -168,6 +168,9 @@ const GlobalStyle = createGlobalStyle`
         h1 {
             text-transform: uppercase;
             font-weight: bold;
+            background: #FFF754;
+            color: #17233F;
+            padding: 10px;
         }
 
         ul {
@@ -254,7 +257,7 @@ class Weapons extends Component {
     getAllWeapons(){
              const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                        <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                        <div className={itemRarity}><img src={img} alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
                             <p>{itemRarity}</p>
@@ -270,7 +273,7 @@ class Weapons extends Component {
     
                     const output = ascending.map(({id, name, weaponType, itemRarity, img, information}) => (
                         <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                        <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                        <div className={itemRarity}><img src={img} alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
                             <p>{itemRarity}</p>
@@ -286,7 +289,7 @@ sortWeaponsDescending(){
 
                 const output = descending.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                    <div className={itemRarity}><img src={img} alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
                         <p>{itemRarity}</p>
@@ -302,7 +305,7 @@ filterWeaponNames(filterWeaponName){
 
                 const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                    <div className={itemRarity}><img src={img} alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
                         <p>{itemRarity}</p>
@@ -340,7 +343,7 @@ menuButtonHover(){
     })
 
     const onBtnMenu = (addHover) => {
-        const buttonMenu = btnArray.map(btns => {
+        btnArray.map(btns => {
             btns.classList.remove('hover')
         })
         addHover.classList.add('hover')

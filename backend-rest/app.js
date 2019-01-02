@@ -26,8 +26,8 @@ app.get('/items/pickaxes/:itemId', itemController.getItemPickaxes);
 app.get('/items/contrails/:itemId', itemController.getItemContrail);
 app.get('/items/toys/:itemId', itemController.getItemToys);
 
-// Item weapon img Routes
-app.get('/items/weapon/img/:itemImg', itemController.getItemWeaponImg);
+// Item img Routes
+app.use('/static', express.static(path.join(__dirname, 'src/')))
 
 app.use((req, res, next) => {
     res.status(404).send('404 Page Not Found')

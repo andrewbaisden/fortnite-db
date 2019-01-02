@@ -6,7 +6,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "assaultRifleBurstRare.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleBurstRare.png",
             "information": [
                 {
                     "damage": 32,
@@ -28,7 +28,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
-            "img": "assaultRifleBurstRare.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleBurstRare.png",
             "information": [
                 {
                     "damage": 38,
@@ -50,7 +50,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Common",
-            "img": "assaultRifleBurst.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleBurst.png",
             "information": [
                 {
                     "damage": 27,
@@ -72,7 +72,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Uncommon",
-            "img": "assaultRifleBurst.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleBurst.png",
             "information": [
                 {
                     "damage": 29,
@@ -94,7 +94,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
-            "img": "assaultRifleBurst.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleBurst.png",
             "information": [
                 {
                     "damage": 30,
@@ -116,7 +116,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Common",
-            "img": "assaultRifleM4.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleM4.png",
             "information": [
                 {
                     "damage": 30,
@@ -138,7 +138,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Uncommon",
-            "img": "assaultRifleM4.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleM4.png",
             "information": [
                 {
                     "damage": 31,
@@ -160,7 +160,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
-            "img": "assaultRifleM4.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleM4.png",
             "information": [
                 {
                     "damage": 33,
@@ -182,7 +182,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "assaultRifleScar.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleScar.png",
             "information": [
                 {
                     "damage": 35,
@@ -204,7 +204,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
-            "img": "assaultRifleScar.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleScar.png",
             "information": [
                 {
                     "damage": 36,
@@ -226,7 +226,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
-            "img": "assaultRifleScoped.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleScoped.png",
             "information": [
                 {
                     "damage": 23,
@@ -248,7 +248,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "assaultRifleScoped.png",
+            "img": "http://localhost:5000/static/assets/weapons/assaultRifleScoped.png",
             "information": [
                 {
                     "damage": 24,
@@ -270,7 +270,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Rare",
-            "img": "heavyAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavyAssaultRifle.png",
             "information": [
                 {
                     "damage": 44,
@@ -292,7 +292,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "heavyAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavyAssaultRifle.png",
             "information": [
                 {
                     "damage": 46,
@@ -314,7 +314,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
-            "img": "heavyAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavyAssaultRifle.png",
             "information": [
                 {
                     "damage": 48,
@@ -336,7 +336,7 @@
             "type": "weapon",
             "weaponType": "Minigun",
             "itemRarity": "Epic",
-            "img": "minigun.png",
+            "img": "http://localhost:5000/static/assets/weapons/minigun.png",
             "information": [
                 {
                     "damage": 18,
@@ -358,7 +358,7 @@
             "type": "weapon",
             "weaponType": "Minigun",
             "itemRarity": "Legendary",
-            "img": "minigun.png",
+            "img": "http://localhost:5000/static/assets/weapons/minigun.png",
             "information": [
                 {
                     "damage": 19,
@@ -380,7 +380,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "suppressedAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/suppressedAssaultRifle.png",
             "information": [
                 {
                     "damage": 32,
@@ -402,7 +402,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
-            "img": "suppressedAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/suppressedAssaultRifle.png",
             "information": [
                 {
                     "damage": 33,
@@ -424,7 +424,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Epic",
-            "img": "thermalScopeAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/thermalScopeAssaultRifle.png",
             "information": [
                 {
                     "damage": 36,
@@ -446,7 +446,7 @@
             "type": "weapon",
             "weaponType": "Assault Rifle",
             "itemRarity": "Legendary",
-            "img": "thermalScopeAssaultRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/thermalScopeAssaultRifle.png",
             "information": [
                 {
                     "damage": 37,
@@ -468,7 +468,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Epic",
-            "img": "heavyShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavyShotgun.png",
             "information": [
                 {
                     "damage": 74,
@@ -490,7 +490,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Legendary",
-            "img": "heavyShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavyShotgun.png",
             "information": [
                 {
                     "damage": 77,
@@ -512,7 +512,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Uncommon",
-            "img": "pumpShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/pumpShotgun.png",
             "information": [
                 {
                     "damage": 95,
@@ -534,7 +534,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Rare",
-            "img": "pumpShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/pumpShotgun.png",
             "information": [
                 {
                     "damage": 100,
@@ -556,7 +556,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Epic",
-            "img": "pumpShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/pumpShotgun.png",
             "information": [
                 {
                     "damage": 105,
@@ -578,7 +578,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Legendary",
-            "img": "pumpShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/pumpShotgun.png",
             "information": [
                 {
                     "damage": 110,
@@ -600,7 +600,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Common",
-            "img": "tacticalShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/tacticalShotgun.png",
             "information": [
                 {
                     "damage": 67,
@@ -622,7 +622,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Uncommon",
-            "img": "tacticalShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/tacticalShotgun.png",
             "information": [
                 {
                     "damage": 70,
@@ -644,7 +644,7 @@
             "type": "weapon",
             "weaponType": "Shotgun",
             "itemRarity": "Rare",
-            "img": "tacticalShotgun.png",
+            "img": "http://localhost:5000/static/assets/weapons/tacticalShotgun.png",
             "information": [
                 {
                     "damage": 74,
@@ -666,7 +666,7 @@
             "type": "weapon",
             "weaponType": "Grappler",
             "itemRarity": "Legendary",
-            "img": "grappler.png",
+            "img": "http://localhost:5000/static/assets/weapons/grappler.png",
             "information": [
                 {
                     "damage": 0,
@@ -688,7 +688,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Epic",
-            "img": "handCannon.png",
+            "img": "http://localhost:5000/static/assets/weapons/handCannon.png",
             "information": [
                 {
                     "damage": 75,
@@ -710,7 +710,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Legendary",
-            "img": "handCannon.png",
+            "img": "http://localhost:5000/static/assets/weapons/handCannon.png",
             "information": [
                 {
                     "damage": 78,
@@ -732,7 +732,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Common",
-            "img": "pistol.png",
+            "img": "http://localhost:5000/static/assets/weapons/pistol.png",
             "information": [
                 {
                     "damage": 23,
@@ -754,7 +754,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Uncommon",
-            "img": "pistol.png",
+            "img": "http://localhost:5000/static/assets/weapons/pistol.png",
             "information": [
                 {
                     "damage": 24,
@@ -776,7 +776,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Rare",
-            "img": "pistol.png",
+            "img": "http://localhost:5000/static/assets/weapons/pistol.png",
             "information": [
                 {
                     "damage": 25,
@@ -798,7 +798,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Common",
-            "img": "revolver.png",
+            "img": "http://localhost:5000/static/assets/weapons/revolver.png",
             "information": [
                 {
                     "damage": 54,
@@ -820,7 +820,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Uncommon",
-            "img": "revolver.png",
+            "img": "http://localhost:5000/static/assets/weapons/revolver.png",
             "information": [
                 {
                     "damage": 57,
@@ -842,7 +842,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Rare",
-            "img": "revolver.png",
+            "img": "http://localhost:5000/static/assets/weapons/revolver.png",
             "information": [
                 {
                     "damage": 60,
@@ -864,7 +864,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Uncommon",
-            "img": "sixShooter.png",
+            "img": "http://localhost:5000/static/assets/weapons/sixShooter.png",
             "information": [
                 {
                     "damage": 34,
@@ -886,7 +886,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Rare",
-            "img": "sixShooter.png",
+            "img": "http://localhost:5000/static/assets/weapons/sixShooter.png",
             "information": [
                 {
                     "damage": 36,
@@ -908,7 +908,7 @@
             "type": "weapon",
             "weaponType": "Revolver",
             "itemRarity": "Epic",
-            "img": "sixShooter.png",
+            "img": "http://localhost:5000/static/assets/weapons/sixShooter.png",
             "information": [
                 {
                     "damage": 38,
@@ -930,7 +930,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Epic",
-            "img": "suppressedPistol.png",
+            "img": "http://localhost:5000/static/assets/weapons/suppressedPistol.png",
             "information": [
                 {
                     "damage": 26,
@@ -952,7 +952,7 @@
             "type": "weapon",
             "weaponType": "Pistol",
             "itemRarity": "Legendary",
-            "img": "suppressedPistol.png",
+            "img": "http://localhost:5000/static/assets/weapons/suppressedPistol.png",
             "information": [
                 {
                     "damage": 28,
@@ -974,7 +974,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Common",
-            "img": "compactGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/compactGun.png",
             "information": [
                 {
                     "damage": 17,
@@ -996,7 +996,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Uncommon",
-            "img": "compactGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/compactGun.png",
             "information": [
                 {
                     "damage": 18,
@@ -1018,7 +1018,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Rare",
-            "img": "compactGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/compactGun.png",
             "information": [
                 {
                     "damage": 19,
@@ -1040,7 +1040,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Epic",
-            "img": "compactGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/compactGun.png",
             "information": [
                 {
                     "damage": 20,
@@ -1062,7 +1062,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Legendary",
-            "img": "compactGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/compactGun.png",
             "information": [
                 {
                     "damage": 21,
@@ -1084,7 +1084,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Common",
-            "img": "submachineGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/submachineGun.png",
             "information": [
                 {
                     "damage": 17,
@@ -1106,7 +1106,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Uncommon",
-            "img": "submachineGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/submachineGun.png",
             "information": [
                 {
                     "damage": 18,
@@ -1128,7 +1128,7 @@
             "type": "weapon",
             "weaponType": "Submachine Gun",
             "itemRarity": "Rare",
-            "img": "submachineGun.png",
+            "img": "http://localhost:5000/static/assets/weapons/submachineGun.png",
             "information": [
                 {
                     "damage": 19,
@@ -1150,7 +1150,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Rare",
-            "img": "boltActionSniperRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/boltActionSniperRifle.png",
             "information": [
                 {
                     "damage": 105,
@@ -1172,7 +1172,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Epic",
-            "img": "boltActionSniperRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/boltActionSniperRifle.png",
             "information": [
                 {
                     "damage": 110,
@@ -1194,7 +1194,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Legendary",
-            "img": "boltActionSniperRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/boltActionSniperRifle.png",
             "information": [
                 {
                     "damage": 116,
@@ -1216,7 +1216,7 @@
             "type": "weapon",
             "weaponType": "Crossbow",
             "itemRarity": "Epic",
-            "img": "fiendHunterCrossbow.png",
+            "img": "http://localhost:5000/static/assets/weapons/fiendHunterCrossbow.png",
             "information": [
                 {
                     "damage": 40,
@@ -1238,7 +1238,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Epic",
-            "img": "heavySniper.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavySniper.png",
             "information": [
                 {
                     "damage": 150,
@@ -1260,7 +1260,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Legendary",
-            "img": "heavySniper.png",
+            "img": "http://localhost:5000/static/assets/weapons/heavySniper.png",
             "information": [
                 {
                     "damage": 157,
@@ -1282,7 +1282,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Uncommon",
-            "img": "huntingRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/huntingRifle.png",
             "information": [
                 {
                     "damage": 86,
@@ -1304,7 +1304,7 @@
             "type": "weapon",
             "weaponType": "Sniper Rifle",
             "itemRarity": "Rare",
-            "img": "huntingRifle.png",
+            "img": "http://localhost:5000/static/assets/weapons/huntingRifle.png",
             "information": [
                 {
                     "damage": 90,
@@ -1326,7 +1326,7 @@
             "type": "weapon",
             "weaponType": "Grenade Launcher",
             "itemRarity": "Rare",
-            "img": "grenadeLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/grenadeLauncher.png",
             "information": [
                 {
                     "damage": 100,
@@ -1348,7 +1348,7 @@
             "type": "weapon",
             "weaponType": "Grenade Launcher",
             "itemRarity": "Epic",
-            "img": "grenadeLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/grenadeLauncher.png",
             "information": [
                 {
                     "damage": 105,
@@ -1370,7 +1370,7 @@
             "type": "weapon",
             "weaponType": "Grenade Launcher",
             "itemRarity": "Legendary",
-            "img": "grenadeLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/grenadeLauncher.png",
             "information": [
                 {
                     "damage": 110,
@@ -1392,7 +1392,7 @@
             "type": "weapon",
             "weaponType": "Rocket Launcher",
             "itemRarity": "Epic",
-            "img": "quadLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/quadLauncher.png",
             "information": [
                 {
                     "damage": 80,
@@ -1414,7 +1414,7 @@
             "type": "weapon",
             "weaponType": "Rocket Launcher",
             "itemRarity": "Legendary",
-            "img": "quadLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/quadLauncher.png",
             "information": [
                 {
                     "damage": 84,
@@ -1436,7 +1436,7 @@
             "type": "weapon",
             "weaponType": "Rocket Launcher",
             "itemRarity": "Rare",
-            "img": "rocketLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/rocketLauncher.png",
             "information": [
                 {
                     "damage": 110,
@@ -1458,7 +1458,7 @@
             "type": "weapon",
             "weaponType": "Rocket Launcher",
             "itemRarity": "Epic",
-            "img": "rocketLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/rocketLauncher.png",
             "information": [
                 {
                     "damage": 116,
@@ -1480,7 +1480,7 @@
             "type": "weapon",
             "weaponType": "Rocket Launcher",
             "itemRarity": "Legendary",
-            "img": "rocketLauncher.png",
+            "img": "http://localhost:5000/static/assets/weapons/rocketLauncher.png",
             "information": [
                 {
                     "damage": 121,

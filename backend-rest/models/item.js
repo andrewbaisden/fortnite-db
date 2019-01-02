@@ -106,13 +106,3 @@ exports.filterWeapons = (type, cb) => {
     cb(item);
   });
 }
-
-// Query API by weapon img
-exports.findWeaponByImg = (img, cb) => {
-  getItemsFromFile(items => {
-    const item = items.weapon.find(i => i.img === img);
-    
-    cb(item);
-  });
-}
-
