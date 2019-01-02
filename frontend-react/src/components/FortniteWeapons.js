@@ -15,12 +15,24 @@ class Fortnite extends Component {
             <Query 
             query={gql`
                 query {
-                    fortniteweaponsfiltername {
+                    fortniteweaponsfiltername{
                         id
                         name
                         weaponType
                         itemRarity
                         img
+                        information {
+                        damage
+                        critialHitChance
+                        critialHitDamage
+                        fireRate
+                        magazineSize
+                        range
+                        durabilty
+                        reloadTime
+                        ammoCost
+                        impact
+                        }
                     }
                     }
             `}
