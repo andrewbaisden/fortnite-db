@@ -9,7 +9,7 @@ const Weapon = ({objWeapon}) => {
         <div className="weapon-container-information">
 
             <div className="weapon-image-container">
-            <div className={objWeapon.itemRarity}><img style={{width: '500px'}} src={objWeapon.img} alt={objWeapon.name} /></div>
+            <div className={objWeapon.itemRarity}><img src={objWeapon.img} alt={objWeapon.name} /></div>
             <div className="weapon-description">
                 <h1>{objWeapon.name}</h1>
                 <p>{objWeapon.itemRarity}</p>

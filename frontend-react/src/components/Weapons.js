@@ -5,7 +5,7 @@ import bg from '../assets/bg.jpg';
 import fortniteLogo from '../assets/fortniteLogo.png';
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
     :root {
         --body-font: 'Open Sans', sans-serif;
     }
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
         background-image: url(${bg});
-        font-family: (--body-font);
+        font-family: var(--body-font);
         font-size: 1.6rem;
     }
     .container {
@@ -66,9 +66,10 @@ const GlobalStyle = createGlobalStyle`
         width: 300px;
         display: grid;
         justify-content: center;
+        align-content: center;
 
         img {
-            max-width: 200px;
+            max-width: 100px;
             width: 100%;
             
         }
@@ -167,8 +168,8 @@ const GlobalStyle = createGlobalStyle`
 
         h1 {
             text-transform: uppercase;
-            font-weight: bold;
-            background: #FFF754;
+            font-weight: 800;
+            background: rgba(255, 247, 84, 1);
             color: #17233F;
             padding: 10px;
         }
@@ -227,7 +228,7 @@ const MenuBtn = styled.button`
     border-radius: 3px;
     border: none;
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
 `
 
