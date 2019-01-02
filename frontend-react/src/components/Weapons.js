@@ -5,8 +5,17 @@ import bg from '../assets/bg.jpg';
 import fortniteLogo from '../assets/fortniteLogo.png';
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    :root {
+        --body-font: 'Open Sans', sans-serif;
+    }
+    html {
+    font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+    }
     body {
         background-image: url(${bg});
+        font-family: (--body-font);
+        font-size: 1.6rem;
     }
     .container {
         width: 100%;
@@ -26,7 +35,30 @@ const GlobalStyle = createGlobalStyle`
     .header img {
         height: 200px;
     }
+    .btn-menu-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .hover {
+        background: #FFF754 !important;
+        color: #191F4D !important;
+    }
 `
+
+const MenuBtn = styled.button`
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+`
+
 class Weapons extends Component {
     constructor(props){
         super(props);
@@ -40,9 +72,11 @@ class Weapons extends Component {
         this.sortWeaponsAscending = this.sortWeaponsAscending.bind(this);
         this.sortWeaponsDescending = this.sortWeaponsDescending.bind(this);
         this.filterWeaponNames = this.filterWeaponNames.bind(this);
+
     }
     componentDidMount(){
         this.getAllWeapons();
+        this.menuButtonHover();
     }
     onWeaponSelect = (objWeapon) => {
         console.log('From object', objWeapon)
@@ -109,6 +143,24 @@ filterWeaponNames(filterWeaponName){
            this.setState({data: output, selectedWeapon: null})
            console.log(filterWeaponName, output)
 }
+menuButtonHover(){
+    const btnArray = Array.from(document.querySelectorAll('.btn-menu'));
+    console.log(btnArray)
+
+    btnArray.map(btns => {
+        btns.addEventListener('click', (e) => {
+            console.log(e.target);
+            onBtnMenu(e.target);
+        })
+    })
+
+    const onBtnMenu = (addHover) => {
+        const buttonMenu = btnArray.map(btns => {
+            btns.classList.remove('hover')
+        })
+        addHover.classList.add('hover')
+    }
+}
     render() {
         return(
             <div>
@@ -121,36 +173,36 @@ filterWeaponNames(filterWeaponName){
                     <div>
                     </div>
                 </div>
-                <div>
-                <button onClick={this.sortWeaponsAscending}>Ascending</button>
-                <button onClick={this.sortWeaponsDescending}>Descending</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Bolt-Action Sniper Rifle')}>Bolt-Action Sniper Rifle</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Burst')}>Burst</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Burst Rare')}>Burst Rare</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Compact Gun')}>Compact Gun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Fiend Hunter Crossbow')}>Fiend Hunter Crossbow</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Grappler')}>Grappler</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Grenade Launcher')}>Grenade Launcher</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Hand Cannon')}>Hand Cannon</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Assault Rifle')}>Heavy Assault Rifle</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Shotgun')}>Heavy Shotgun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Sniper')}>Heavy Sniper</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Hunting Rifle')}>Hunting Rifle</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('M4')}>M4</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Minigun')}>Minigun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Pistol')}>Pistol</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Pump Shotgun')}>Pump Shotgun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Quad Launcher')}>Quad Launcher</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Revolver')}>Revolver</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Rocket Launcher')}>Rocket Launcher</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('SCAR')}>SCAR</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Scoped')}>Scoped</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Six Shooter')}>Six Shooter</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Submachine Gun')}>Submachine Gun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Suppressed Assault Rifle')}>Suppressed Assault Rifle</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Supressed Pistol')}>Supressed Pistol</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Tactical Shotgun')}>Tactical Shotgun</button>
-                <button onClick={(filterWeaponName) => this.filterWeaponNames('Thermal Scope Assault Rifle')}>Thermal Scope Assault Rifle</button>
+                <div className="btn-menu-container">
+                <MenuBtn className="btn-menu" onClick={this.sortWeaponsAscending}>Ascending</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={this.sortWeaponsDescending}>Descending</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Bolt-Action Sniper Rifle')}>Bolt-Action Sniper Rifle</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Burst')}>Burst</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Burst Rare')}>Burst Rare</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Compact Gun')}>Compact Gun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Fiend Hunter Crossbow')}>Fiend Hunter Crossbow</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Grappler')}>Grappler</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Grenade Launcher')}>Grenade Launcher</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Hand Cannon')}>Hand Cannon</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Assault Rifle')}>Heavy Assault Rifle</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Shotgun')}>Heavy Shotgun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Heavy Sniper')}>Heavy Sniper</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Hunting Rifle')}>Hunting Rifle</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('M4')}>M4</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Minigun')}>Minigun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Pistol')}>Pistol</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Pump Shotgun')}>Pump Shotgun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Quad Launcher')}>Quad Launcher</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Revolver')}>Revolver</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Rocket Launcher')}>Rocket Launcher</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('SCAR')}>SCAR</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Scoped')}>Scoped</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Six Shooter')}>Six Shooter</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Submachine Gun')}>Submachine Gun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Suppressed Assault Rifle')}>Suppressed Assault Rifle</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Supressed Pistol')}>Supressed Pistol</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Tactical Shotgun')}>Tactical Shotgun</MenuBtn>
+                <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Thermal Scope Assault Rifle')}>Thermal Scope Assault Rifle</MenuBtn>
                 </div>
                 <div>
                     {this.state.data}
