@@ -44,6 +44,57 @@ const GlobalStyle = createGlobalStyle`
         background: #FFF754 !important;
         color: #191F4D !important;
     }
+    .weapon-container {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+    .weapon-list-container {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .weapon {
+        cursor: pointer;
+    }
+    .Common, .Uncommon, .Rare, .Epic, .Legendary {
+        width: 300px;
+        display: grid;
+        justify-content: center;
+
+        img {
+            max-width: 150px;
+            width: 100%;
+            
+        }
+    }
+    .Common {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9cad7+0,c9cad7+100 */
+        background: #c9cad7; /* Old browsers */
+        background: -moz-linear-gradient(top, #c9cad7 0%, #c9cad7 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #c9cad7 0%,#c9cad7 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #c9cad7 0%,#c9cad7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cad7', endColorstr='#c9cad7',GradientType=0 ); /* IE6-9 */
+        border-top: 2px solid #e2e2e2;
+        border-right: 2px solid #e2e2e2;
+        border-bottom: 2px solid #9b9b9b;
+        border-left: 2px solid #9b9b9b;
+    }
+    .weapon-description {
+        color: #ffffff;
+        text-transform: uppercase;
+        background: #2A2A2A;
+        padding: 10px;
+        font-weight: bold;
+
+        h1, p {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+    }
 `
 
 const MenuBtn = styled.button`
@@ -84,7 +135,7 @@ class Weapons extends Component {
     }
     getAllWeapons(){
              const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+                    <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                         <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
@@ -100,7 +151,7 @@ class Weapons extends Component {
          ascending = this.props.weapons.sort((a, b) => a.name.localeCompare(b.name));
     
                     const output = ascending.map(({id, name, weaponType, itemRarity, img, information}) => (
-                        <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+                        <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                         <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
@@ -116,7 +167,7 @@ sortWeaponsDescending(){
      descending = this.props.weapons.sort((a, b) => b.name.localeCompare(a.name));
 
                 const output = descending.map(({id, name, weaponType, itemRarity, img, information}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+                    <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                     <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
@@ -132,7 +183,7 @@ filterWeaponNames(filterWeaponName){
      filterWeaponNames = this.props.weapons.filter(w => w.name === filterWeaponName)
 
                 const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img, information}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+                    <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                     <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
@@ -204,12 +255,15 @@ menuButtonHover(){
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Tactical Shotgun')}>Tactical Shotgun</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Thermal Scope Assault Rifle')}>Thermal Scope Assault Rifle</MenuBtn>
                 </div>
-                <div>
-                    {this.state.data}
-                </div>
+                <div className="weapon-container">
                 <div>
                     <Weapon objWeapon={this.state.selectedWeapon}/>
                 </div>
+                <div className="weapon-list-container">
+                    {this.state.data}
+                </div>
+                </div>
+                
                 </div>
             </div>
         )
