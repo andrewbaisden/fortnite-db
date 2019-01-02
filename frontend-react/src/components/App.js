@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { ApolloProvider } from 'react-apollo';
 import { client } from '../index';
-import Fortnite from './Fortnite';
-
+import FortniteWeapons from './FortniteWeapons';
 class App extends Component {
     render() {
         return(
             <ApolloProvider client={client}>
-                <Fortnite />
+                <FortniteWeapons />
             </ApolloProvider>
             
         )
