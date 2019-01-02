@@ -322,7 +322,7 @@ filterWeaponRarity(filterWeaponRarity){
 
                 const output = filterWeaponRaritys.map(({id, name, weaponType, itemRarity, img, information}) => (
                     <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
-                    <div className={itemRarity}><img src="http://localhost:5000/items/weapon/img/assaultRifleScar.png" alt={name} /></div>
+                    <div className={itemRarity}><img src={img} alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
                         <p>{itemRarity}</p>
