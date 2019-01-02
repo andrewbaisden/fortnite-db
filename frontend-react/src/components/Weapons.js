@@ -29,8 +29,8 @@ class Weapons extends Component {
         this.setState({selectedWeapon: objWeapon});
     }
     getAllWeapons(){
-             const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img})}>
+             const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
+                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                         <div className={itemRarity}><img src={img} alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
@@ -45,8 +45,8 @@ class Weapons extends Component {
         let ascending = this.props.weapons.map(w => w);
          ascending = this.props.weapons.sort((a, b) => a.name.localeCompare(b.name));
     
-                    const output = ascending.map(({id, name, weaponType, itemRarity, img}) => (
-                        <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img})}>
+                    const output = ascending.map(({id, name, weaponType, itemRarity, img, information}) => (
+                        <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                         <div className={itemRarity}><img src={img} alt={name} /></div>
                         <div className="weapon-description">
                             <h1>{name}</h1>
@@ -61,8 +61,8 @@ sortWeaponsDescending(){
     let descending = this.props.weapons.map(w => w);
      descending = this.props.weapons.sort((a, b) => b.name.localeCompare(a.name));
 
-                const output = descending.map(({id, name, weaponType, itemRarity, img}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img})}>
+                const output = descending.map(({id, name, weaponType, itemRarity, img, information}) => (
+                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                     <div className={itemRarity}><img src={img} alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
@@ -77,8 +77,8 @@ filterWeaponNames(filterWeaponName){
     let filterWeaponNames = this.props.weapons.map(w => w);
      filterWeaponNames = this.props.weapons.filter(w => w.name === filterWeaponName)
 
-                const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img}) => (
-                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img})}>
+                const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img, information}) => (
+                    <div className="weapon-container" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                     <div className={itemRarity}><img src={img} alt={name} /></div>
                     <div className="weapon-description">
                         <h1>{name}</h1>
