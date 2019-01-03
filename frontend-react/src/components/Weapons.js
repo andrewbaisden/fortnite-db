@@ -26,19 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e35ea', end
         /* max-width: 1680px; */
         margin: 0 auto;
     }
-    .header {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141535+0,141537+100 */
-        background: #141535; /* Old browsers */
-        background: -moz-linear-gradient(top, #141535 0%, #141537 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #141535 0%,#141537 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #141535 0%,#141537 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141535', endColorstr='#141537',GradientType=0 ); /* IE6-9 */
-        height: 200px;
-        width: 100%;
-    }
-    .header img {
-        height: 200px;
-    }
+
     .hover {
         background: #FFF754 !important;
         color: #191F4D !important;
@@ -151,6 +139,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e35ea', end
             font-size: 1.4rem;
         }
     }
+`
+
+const FortniteHeader = styled.div`
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141535+0,141537+100 */
+        background: #141535; /* Old browsers */
+        background: -moz-linear-gradient(top, #141535 0%, #141537 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #141535 0%,#141537 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #141535 0%,#141537 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141535', endColorstr='#141537',GradientType=0 ); /* IE6-9 */
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        img {
+            display: grid;
+            height: 200px;
+        }
+        @media only screen and (max-width: 580px) { 
+            grid-template-columns: 1fr;
+
+            img {
+                margin: 0 auto;
+                justify-self: center;
+            }
+        }
+
+`
+const FortniteHeaderDBCopy = styled.div`
+    display: grid;
+    align-content: center;
+    h1 {
+    margin: 0;
+       font-size: 7rem;
+       color: #ffffff; 
+    }
+    @media only screen and (max-width: 580px) { 
+            justify-content: center;
+        }
+    
 `
 
 const BtnMenuContainer = styled.div`
@@ -324,13 +351,14 @@ menuButtonHover(){
             <div>
                 <GlobalStyle />
                 <div className="container">
-                <div className="header">
+                <FortniteHeader>
                     <div>
                         <img src={fortniteLogo} alt="Fortnite Logo" /> 
                     </div>
+                    <FortniteHeaderDBCopy><h1>DB</h1></FortniteHeaderDBCopy>
                     <div>
                     </div>
-                </div>
+                </FortniteHeader>
                 <BtnMenuContainer>
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsAscending}>Ascending</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsDescending}>Descending</MenuBtn>
