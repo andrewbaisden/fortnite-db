@@ -265,6 +265,7 @@ class Weapons extends Component {
     onWeaponSelect = (objWeapon) => {
         console.log('From object', objWeapon)
         this.setState({selectedWeapon: objWeapon});
+        window.scrollTo(0, 0);
     }
     weaponList = (id, name, weaponType, itemRarity, img, information) => {
         return (
