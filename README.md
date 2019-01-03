@@ -37,10 +37,8 @@ cd frontend-react `npm run start`
 
 The App is running locally, on port 3000 http://localhost:3000/
 
-#### Javascript App
+#### Javascript App (TBC)
 
 cd frontend-javascript `npm run start`
 
 The App is running locally, on port 4000 http://localhost:4000/
-
-There is an online production version of the app here 'TBC'
