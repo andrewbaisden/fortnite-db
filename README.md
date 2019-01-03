@@ -45,3 +45,13 @@ The App is running locally, on port 3000 [http://localhost:3000/](http://localho
 cd frontend-javascript `npm run start`
 
 The App is running locally, on port 4000 [http://localhost:4000/](http://localhost:4000/)
+
+### Production
+
+The Fortnite db App is online on these platforms
+
+[Heroku - Fortnite db App](https://fortnite-db-frontend-react.herokuapp.com/)
+
+[Netlify - Fortnite db App](https://fortnite-db-frontend-react.netlify.com/)
+
+[Zeit Now - Fortnite db App](https://build-ekz91xsmk.now.sh/)
