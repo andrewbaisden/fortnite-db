@@ -154,7 +154,7 @@ const FortniteHeader = styled.div`
         grid-template-columns: 1fr 4fr;
         img {
             display: grid;
-            height: 200px;
+            width: 100%;
         }
         @media only screen and (max-width: 580px) { 
             grid-template-columns: 1fr;

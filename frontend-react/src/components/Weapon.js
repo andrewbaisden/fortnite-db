@@ -13,6 +13,10 @@ const WeaponContainerInformation = styled.div`
             grid-template-columns: 1fr;
         }
 
+        @media only screen and (max-width: 500px) { 
+            padding: 0px;
+        }
+
 `
 const WeaponImageContainer = styled.div`
         display: grid;
