@@ -1,5 +1,8 @@
 # Fortnite db
+
 A Fortnite database app, for checking weapons and items.
+
+![alt text](https://fortnite-db-backend-rest.herokuapp.com/static/assets/fortniteDB.png "Fortnite DB App")
 
 ## Installation and Setup
 
@@ -23,22 +26,22 @@ The only difference between the frontend versions, is the framework. One built i
 
 cd backend-rest `npm run start`
 
-The backend server is running locally, on port 5000 http://localhost:5000/
+The backend server is running locally, on port 5000 [http://localhost:5000/](http://localhost:5000/)
 
 #### GraphQL API
 
 cd backend-graphql `npm run start`
 
-The backend server is running locally, on port 8000 http://localhost:8000/
+The backend server is running locally, on port 8000 [http://localhost:8000/](http://localhost:8000/)
 
 #### React App
 
 cd frontend-react `npm run start`
 
-The App is running locally, on port 3000 http://localhost:3000/
+The App is running locally, on port 3000 [http://localhost:3000/](http://localhost:3000/)
 
 #### Javascript App (TBC)
 
 cd frontend-javascript `npm run start`
 
-The App is running locally, on port 4000 http://localhost:4000/
+The App is running locally, on port 4000 [http://localhost:4000/](http://localhost:4000/)
