@@ -163,15 +163,15 @@ const GlobalStyle = createGlobalStyle`
             font-size: 1.4rem;
         }
     }
-    .weapon-container-information {
+    /* .weapon-container-information {
         background: rgba(20, 21, 55, 0.4);
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         justify-content: center;
         padding: 20px;
-    }
-    .weapon-image-container {
+    } */
+    /* .weapon-image-container {
         display: grid;
         justify-content: end;
     }
@@ -231,7 +231,7 @@ const GlobalStyle = createGlobalStyle`
             }
         }
         
-    }
+    } */
 `
 
 const BtnMenuContainer = styled.div`
@@ -296,6 +296,7 @@ const WeaponListContainer = styled.div`
         }
 
 `
+
 
 class Weapons extends Component {
     constructor(props){
