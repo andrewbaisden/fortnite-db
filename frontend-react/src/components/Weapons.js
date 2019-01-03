@@ -35,11 +35,11 @@ const GlobalStyle = createGlobalStyle`
     .header img {
         height: 200px;
     }
-    .btn-menu-container {
+    /* .btn-menu-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
-    }
+    } */
     .hover {
         background: #FFF754 !important;
         color: #191F4D !important;
@@ -51,13 +51,13 @@ const GlobalStyle = createGlobalStyle`
         grid-gap: 20px;
         /* justify-items: center; */
     }
-    .weapon-list-container {
+    /* .weapon-list-container {
         margin: 0 auto;
         margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
-    }
+    } */
     .weapon {
         cursor: pointer;
         width: 295px;
@@ -155,7 +155,7 @@ const GlobalStyle = createGlobalStyle`
         background: #2A2A2A;
         padding: 10px;
         font-weight: bold;
-        width: 285px;
+        width: 284px;
         height: 40px;
 
         h1, p {
@@ -230,7 +230,24 @@ const GlobalStyle = createGlobalStyle`
                 background: #101135;
             }
         }
+        
     }
+`
+
+const BtnMenuContainer = styled.div`
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+        @media only screen and (max-width: 768px) { 
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 480px) { 
+            grid-template-columns: 1fr 1fr;
+        }
+    
 `
 
 const MenuBtn = styled.button`
@@ -246,6 +263,40 @@ const MenuBtn = styled.button`
     cursor: pointer;
 
 `
+const WeaponListContainer = styled.div`
+
+        margin: 0 auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+
+        @media only screen and (max-width: 1940px) { 
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 1300px) { 
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 970px) { 
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 768px) { 
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 650px) { 
+            grid-template-columns: 1fr;
+        }
+
+        @media only screen and (max-width: 480px) { 
+            grid-template-columns: 1fr;
+        }
+
+`
+
 class Weapons extends Component {
     constructor(props){
         super(props);
@@ -336,7 +387,7 @@ menuButtonHover(){
     const btnArray = Array.from(document.querySelectorAll('.btn-menu'));
     console.log(btnArray)
 
-    btnArray.map(btns => {
+    btnArray.forEach(btns => {
         btns.addEventListener('click', (e) => {
             console.log(e.target);
             onBtnMenu(e.target);
@@ -344,7 +395,7 @@ menuButtonHover(){
     })
 
     const onBtnMenu = (addHover) => {
-        btnArray.map(btns => {
+        btnArray.forEach(btns => {
             btns.classList.remove('hover')
         })
         addHover.classList.add('hover')
@@ -362,7 +413,7 @@ menuButtonHover(){
                     <div>
                     </div>
                 </div>
-                <div className="btn-menu-container">
+                <BtnMenuContainer>
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsAscending}>Ascending</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={this.sortWeaponsDescending}>Descending</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponRarity) => this.filterWeaponRarity('Common')}>Common</MenuBtn>
@@ -397,14 +448,14 @@ menuButtonHover(){
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Supressed Pistol')}>Supressed Pistol</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Tactical Shotgun')}>Tactical Shotgun</MenuBtn>
                 <MenuBtn className="btn-menu" onClick={(filterWeaponName) => this.filterWeaponNames('Thermal Scope Assault Rifle')}>Thermal Scope Assault Rifle</MenuBtn>
-                </div>
+                </BtnMenuContainer>
                 <div className="weapon-container">
                 <div>
                     <Weapon objWeapon={this.state.selectedWeapon}/>
                 </div>
-                <div className="weapon-list-container">
+                <WeaponListContainer>
                     {this.state.data}
-                </div>
+                </WeaponListContainer>
                 </div>
                 
                 </div>
