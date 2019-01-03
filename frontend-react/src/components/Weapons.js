@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Weapon from './Weapon';
 import styled, { createGlobalStyle } from 'styled-components';
-import bg from '../assets/bg.jpg';
 import fortniteLogo from '../assets/fortniteLogo.png';
 
 const GlobalStyle = createGlobalStyle`
@@ -13,7 +12,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
     }
     body {
-        background-image: url(${bg});
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e35ea+0,712ef7+48,7017ed+51,5f09ea+100 */
+background: #2e35ea; /* Old browsers */
+background: -moz-linear-gradient(top, #2e35ea 0%, #712ef7 48%, #7017ed 51%, #5f09ea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #2e35ea 0%,#712ef7 48%,#7017ed 51%,#5f09ea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #2e35ea 0%,#712ef7 48%,#7017ed 51%,#5f09ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e35ea', endColorstr='#5f09ea',GradientType=0 ); /* IE6-9 */
         font-family: var(--body-font);
         font-size: 1.6rem;
     }
@@ -35,11 +39,6 @@ const GlobalStyle = createGlobalStyle`
     .header img {
         height: 200px;
     }
-    /* .btn-menu-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
-    } */
     .hover {
         background: #FFF754 !important;
         color: #191F4D !important;
@@ -49,15 +48,7 @@ const GlobalStyle = createGlobalStyle`
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
-        /* justify-items: center; */
     }
-    /* .weapon-list-container {
-        margin: 0 auto;
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-    } */
     .weapon {
         cursor: pointer;
         width: 295px;
@@ -72,9 +63,6 @@ const GlobalStyle = createGlobalStyle`
     }
     .weapon-item-container {
         position: relative;
-    }
-    .weapon-description-container {
-
     }
     .Common, .Uncommon, .Rare, .Epic, .Legendary {
         width: 300px;
@@ -163,79 +151,10 @@ const GlobalStyle = createGlobalStyle`
             font-size: 1.4rem;
         }
     }
-    /* .weapon-container-information {
-        background: rgba(20, 21, 55, 0.4);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        justify-content: center;
-        padding: 20px;
-    } */
-    /* .weapon-image-container {
-        display: grid;
-        justify-content: end;
-    }
-    .weapon-information {
-        display: grid;
-        justify-content: start;
-        color: #ffffff;
-
-        h1 {
-            text-transform: uppercase;
-            font-weight: 800;
-            background: rgba(255, 247, 84, 1);
-            color: #17233F;
-            padding: 10px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            font-size: 1.8rem;
-
-            li {
-                display: grid;
-                justify-items: center;
-                justify-content: center;
-                padding: 10px;
-            }
-            li:nth-child(1) {
-                background: #141537;
-            }
-            li:nth-child(2) {
-                background: #101135;
-            }
-            li:nth-child(3) {
-                background: #141537;
-            }
-            li:nth-child(4) {
-                background: #101135;
-            }
-            li:nth-child(5) {
-                background: #141537;
-            }
-            li:nth-child(6) {
-                background: #101135;
-            }
-            li:nth-child(7) {
-                background: #141537;
-            }
-            li:nth-child(8) {
-                background: #101135;
-            }
-            li:nth-child(9) {
-                background: #141537;
-            }
-            li:nth-child(10) {
-                background: #101135;
-            }
-        }
-        
-    } */
 `
 
 const BtnMenuContainer = styled.div`
-        
+        margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
@@ -296,8 +215,6 @@ const WeaponListContainer = styled.div`
         }
 
 `
-
-
 class Weapons extends Component {
     constructor(props){
         super(props);
