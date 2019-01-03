@@ -268,8 +268,8 @@ class Weapons extends Component {
     }
     weaponList = (id, name, weaponType, itemRarity, img, information) => {
         return (
-            <div className="weapon-item-container">
-                            <div className="weapon" key={id} onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
+            <div className="weapon-item-container" key={id}>
+                            <div className="weapon" onClick={() => this.onWeaponSelect({id, name, weaponType, itemRarity, img, information})}>
                         </div>
                         <div className="weapon-description-container">
                         <div className={itemRarity}><img src={img} alt={name} /></div>
