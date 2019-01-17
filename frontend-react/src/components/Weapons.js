@@ -290,40 +290,36 @@ class Weapons extends Component {
                     console.log('All Weapons', output)
     }
     sortWeaponsAscending(){
-        let ascending = this.props.weapons.map(w => w);
-         ascending = this.props.weapons.sort((a, b) => a.name.localeCompare(b.name));
+               this.props.weapons.sort((a, b) => a.name.localeCompare(b.name));
     
-                    const output = ascending.map(({id, name, weaponType, itemRarity, img, information}) => (
+                    const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
                         this.weaponList(id, name, weaponType, itemRarity, img, information)
                     ));
                this.setState({data: output, selectedWeapon: null})
                console.log('All Weapons A-Z', output)
 }
 sortWeaponsDescending(){
-    let descending = this.props.weapons.map(w => w);
-     descending = this.props.weapons.sort((a, b) => b.name.localeCompare(a.name));
+           this.props.weapons.sort((a, b) => b.name.localeCompare(a.name));
 
-                const output = descending.map(({id, name, weaponType, itemRarity, img, information}) => (
+                const output = this.props.weapons.map(({id, name, weaponType, itemRarity, img, information}) => (
                     this.weaponList(id, name, weaponType, itemRarity, img, information)
                 ));
            this.setState({data: output, selectedWeapon: null})
            console.log('All Weapons Z-A', output)
 }
 filterWeaponNames(filterWeaponName){
-    let filterWeaponNames = this.props.weapons.map(w => w);
-     filterWeaponNames = this.props.weapons.filter(w => w.name === filterWeaponName)
+          const weaponName = this.props.weapons.filter(w => w.name === filterWeaponName)
 
-                const output = filterWeaponNames.map(({id, name, weaponType, itemRarity, img, information}) => (
+                const output = weaponName.map(({id, name, weaponType, itemRarity, img, information}) => (
                     this.weaponList(id, name, weaponType, itemRarity, img, information)
                 ));
            this.setState({data: output, selectedWeapon: null})
            console.log(filterWeaponName, output)
 }
 filterWeaponRarity(filterWeaponRarity){
-    let filterWeaponRaritys = this.props.weapons.map(w => w);
-     filterWeaponRaritys = this.props.weapons.filter(w => w.itemRarity === filterWeaponRarity)
+           const weaponRarity = this.props.weapons.filter(w => w.itemRarity === filterWeaponRarity)
 
-                const output = filterWeaponRaritys.map(({id, name, weaponType, itemRarity, img, information}) => (
+                const output = weaponRarity.map(({id, name, weaponType, itemRarity, img, information}) => (
                     this.weaponList(id, name, weaponType, itemRarity, img, information)
                 ));
            this.setState({data: output, selectedWeapon: null})
