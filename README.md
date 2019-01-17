@@ -30,7 +30,7 @@ The backend server is running locally, on port 5000 [http://localhost:5000/](htt
 
 #### GraphQL API
 
-cd backend-graphql `npm run start`
+cd backend-graphql `npm run dev`
 
 The backend server is running locally, on port 8000 [http://localhost:8000/](http://localhost:8000/)
 
@@ -48,7 +48,7 @@ The App is running locally, on port 4000 [http://localhost:4000/](http://localho
 
 ### Production
 
-The Fortnite db App is online on these platforms
+The Fortnite db App is online on these platforms.
 
 [Heroku - Fortnite db App](https://fortnite-db-frontend-react.herokuapp.com/)
 

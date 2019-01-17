@@ -3,6 +3,7 @@ import Weapon from './Weapon';
 import styled, { createGlobalStyle } from 'styled-components';
 import fortniteLogo from '../assets/fortniteLogo.png';
 
+// Styled Components
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
     :root {
