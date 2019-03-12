@@ -2,7 +2,7 @@
 
 A Fortnite database app, for checking weapons and items.
 
-![alt text](https://fortnite-db-backend-rest.herokuapp.com/static/assets/fortniteDB.png "Fortnite DB App")
+![alt text](https://fortnite-db-backend-rest.herokuapp.com/static/assets/fortniteDB.png 'Fortnite DB App')
 
 ## Installation and Setup
 
@@ -49,8 +49,6 @@ The App is running locally, on port 4000 [http://localhost:4000/](http://localho
 ### Production
 
 The Fortnite db App is online on these platforms.
-
-[Heroku - Fortnite db App](https://fortnite-db-frontend-react.herokuapp.com/)
 
 [Netlify - Fortnite db App](https://fortnite-db-frontend-react.netlify.com/)
 
