@@ -40,12 +40,6 @@ cd frontend-react `npm run start`
 
 The App is running locally, on port 3000 [http://localhost:3000/](http://localhost:3000/)
 
-#### Javascript App (TBC)
-
-cd frontend-javascript `npm run start`
-
-The App is running locally, on port 4000 [http://localhost:4000/](http://localhost:4000/)
-
 ### Production
 
 The Fortnite db App is online on these platforms.
