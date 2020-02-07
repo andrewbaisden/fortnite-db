@@ -12,13 +12,13 @@
   "author": "Andrew Baisden",
   "license": "MIT",
   "dependencies": {
-    "@babel/polyfill": "^7.2.5",
-    "axios": "^0.18.0",
+    "@babel/polyfill": "^7.8.3",
+    "axios": "^0.18.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "graphql-yoga": "^1.16.9"
+    "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.19.4"
   }
 }
