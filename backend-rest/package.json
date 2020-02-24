@@ -1,19 +1,21 @@
 {
-  "name": "backend-rest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andrew Baisden",
-  "license": "MIT"
+	"name": "backend-rest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"dependencies": {
+		"concurrently": "^5.1.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.4"
+	},
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"servers": "concurrently \"npm run start\" \"cd ../backend-graphql && npm run dev\" \" cd ../frontend-react && npm run start\" "
+	},
+	"author": "Andrew Baisden",
+	"license": "MIT"
 }
