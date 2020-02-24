@@ -18,6 +18,19 @@ cd frontend-react `npm install`
 
 There are three servers two for backend and one for the frontend.
 
+#### Get the GraphQL API working
+
+cd frontend-react and open the index.js file
+
+```javascript
+export const client = new ApolloClient({
+	uri: `${BASE_URL}` // Delete this line of code
+
+	// Uncomment the line of code below
+	// uri: "http://localhost:8000"
+});
+```
+
 cd backend-rest `npm run servers`
 
 The React App is running locally on port 3000 this is the url you need to use to see the app running [http://localhost:3000/](http://localhost:3000/)

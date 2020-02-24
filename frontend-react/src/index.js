@@ -5,8 +5,11 @@ import App from './components/App';
 import ApolloClient from 'apollo-boost';
 import gql from 'graphql-tag';
 
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 export const client = new ApolloClient({
-	uri: 'http://localhost:8000/'
+	uri: `${BASE_URL}`
+	// uri: "http://localhost:8000"
 });
 
 client
