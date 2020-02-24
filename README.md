@@ -24,9 +24,10 @@ cd frontend-react and open the index.js file
 
 ```javascript
 export const client = new ApolloClient({
-	uri: `${BASE_URL}` // Delete this line of code
+	// Online Version delete code below if its not working
+	uri: `${gqlOnline}`
 
-	// Uncomment the line of code below
+	// Local Version uncomment and use the local GraphQL server
 	// uri: "http://localhost:8000"
 });
 ```
