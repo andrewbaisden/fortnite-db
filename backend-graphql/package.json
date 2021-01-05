@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "concurrently": "^5.1.0",
