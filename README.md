@@ -2,7 +2,7 @@
 
 A Fortnite database app for checking weapons and items.
 
-![Fortnite DB App](https://res.cloudinary.com/d74fh3kw/image/upload/v1582569356/fortniteDB_usn5b1.png 'Fortnite DB App')
+![Fortnite DB App](/img/fortnite-db.png 'Fortnite DB App')
 
 ## Installation and Setup
 
@@ -25,7 +25,7 @@ cd frontend-react and open the index.js file
 ```javascript
 export const client = new ApolloClient({
 	// Online Version delete code below if its not working
-	uri: `${gqlOnline}`
+	uri: `${gqlOnline}`,
 
 	// Local Version uncomment and use the local GraphQL server
 	// uri: "http://localhost:8000"
