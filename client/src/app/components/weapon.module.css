@@ -1,0 +1,77 @@
+.weaponContainerInformation {
+  background: rgba(20, 21, 55, 0.4);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.WeaponImageContainer {
+  display: grid;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.WeaponInformation {
+  display: grid;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.WeaponInformation h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  background: rgba(255, 247, 84, 1);
+  color: #17233f;
+  padding: 10px;
+}
+
+.WeaponInformation ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.WeaponInformation li {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.WeaponInformation li:nth-child(1) {
+  background: #141537;
+}
+.WeaponInformation li:nth-child(2) {
+  background: #101135;
+}
+.WeaponInformation li:nth-child(3) {
+  background: #141537;
+}
+.WeaponInformation li:nth-child(4) {
+  background: #101135;
+}
+.WeaponInformation li:nth-child(5) {
+  background: #141537;
+}
+.WeaponInformation li:nth-child(6) {
+  background: #101135;
+}
+.WeaponInformation li:nth-child(7) {
+  background: #141537;
+}
+.WeaponInformation li:nth-child(8) {
+  background: #101135;
+}
+.WeaponInformation li:nth-child(9) {
+  background: #141537;
+}
+.WeaponInformation li:nth-child(10) {
+  background: #101135;
+}
+
+@media only screen and (max-width: 580px) {
+  .weaponContainerInformation {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}

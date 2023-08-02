@@ -1,0 +1,241 @@
+.pagecontainer {
+  display: flex;
+  background: #3d34ed;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinnerbox {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.circleborder {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(63, 249, 220);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 249, 220, 0.1) 33%,
+    rgba(63, 249, 220, 1) 100%
+  );
+  animation: spin 0.8s linear 0s infinite;
+}
+
+.circlecore {
+  width: 100%;
+  height: 100%;
+  background-color: #3d34ed;
+  border-radius: 50%;
+}
+
+.loading {
+  font-size: 5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin3D {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+  to {
+    transform: rotate3d(0deg);
+  }
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  75% {
+    transform: rotate(-225deg);
+  }
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.25;
+    transform: scale(0.75);
+  }
+}
+
+.fortniteheader {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141535+0,141537+100 */
+  background: #141535; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #141535 0%,
+    #141537 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #141535 0%,
+    #141537 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #141535 0%,
+    #141537 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141535', endColorstr='#141537',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fortnitelogo {
+  max-height: 20rem;
+  width: 40%;
+}
+
+.fortnitedb {
+  font-size: 7rem;
+  color: #ffffff;
+  margin-right: 5rem;
+}
+
+.btnmenucontainer {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 580px) {
+  .fortnitelogo {
+    margin: 0 auto;
+  }
+  .btnmenucontainer {
+    justify-content: center;
+  }
+}
+
+.weaponlistcontainer {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.weaponsbox {
+  background-color: #4914a3;
+  margin-right: 2rem;
+}
+
+.weapon {
+  cursor: pointer;
+  margin: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.weapon:hover {
+  background-color: rgb(250 204 21);
+}
+
+.weapondescription {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  padding: 1rem;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Menu */
+
+.menubutton {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 30rem;
+}
+.menubutton:hover {
+  background-color: rgb(2 132 199);
+  transition: background-color 1s;
+}
+
+.toggleMenuContainer {
+  margin: 2rem auto;
+}
+
+.toggleMenuButton {
+  cursor: pointer;
+  width: 100%;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: #4613a3;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.toggleMenuButton:hover {
+  background-color: rgb(41 37 36);
+  transition: background-color 1s;
+}
