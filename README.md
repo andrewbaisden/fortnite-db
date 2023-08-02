@@ -1,43 +1,50 @@
 # Fortnite db
 
-A Fortnite database app for checking weapons and items.
+A Fortnite database app for checking weapons from the game.
 
 ![Fortnite DB App](/img/fortnite-db.png 'Fortnite DB App')
 
-## Installation and Setup
+## Install and Setup
 
-Download/Clone this repo to your local machine. Navigate to the root folders and install the dependencies.
+Clone this repo to your local machine and `cd` into the root directory for the `client` and `server` folders. Then run the command `npm install` to install the package dependencies.
 
-cd backend-graphql `npm install`
+## Running the App
 
-cd backend-rest `npm install`
+There are two servers one for the backend server and one for the client frontend.
 
-cd frontend-react `npm install`
+To start the backend run the command `npm run start` in the server folder.
 
-### Running the App
+To start the frontend run the command `npm run dev` in the client folder.
 
-There are three servers two for backend and one for the frontend.
+The GraphQL API server is running on port 8080 [http://localhost:8080/graphql](http://localhost:8080/graphql)
 
-#### Get the GraphQL API working
+Here is a sample GraphQL query.
 
-cd frontend-react and open the index.js file
-
-```javascript
-export const client = new ApolloClient({
-	// Online Version delete code below if its not working
-	uri: `${gqlOnline}`,
-
-	// Local Version uncomment and use the local GraphQL server
-	// uri: "http://localhost:8000"
-});
+```graphql
+{
+  inventorys {
+    id
+    name
+    type
+    weaponType
+    itemRarity
+    img
+    information {
+      damage
+      critialHitChance
+      critialHitDamage
+      fireRate
+      magazineSize
+      range
+      durabilty
+      reloadTime
+      ammoCost
+      impact
+    }
+  }
+}
 ```
 
-cd backend-rest `npm run servers`
+The Next.js App is running on port 3000 [http://localhost:3000/](http://localhost:3000/)
 
-The React App is running locally on port 3000 this is the url you need to use to see the app running [http://localhost:3000/](http://localhost:3000/)
-
-### Backend Server Routes
-
-The REST server is running locally on port 5000 [http://localhost:5000/](http://localhost:5000/)
-
-The GraphQL server is running locally on port 8000 [http://localhost:8000/](http://localhost:8000/)
+The deprecated folder has the old codebase the latest codebase uses Next.js + GraphQL.
