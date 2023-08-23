@@ -5,7 +5,10 @@ import { useMemo } from 'react';
 export function initializeApollo(initialState = null) {
   const _apolloClient = new ApolloClient({
     // Local GraphQL Endpoint
-    uri: 'http://localhost:8080/graphql',
+    // uri: 'http://localhost:8080/graphql',
+
+    // Online GraphQL Endpoint
+    uri: 'https://fortnite-db-backend-server.onrender.com/graphql',
 
     cache: new InMemoryCache().restore(initialState || {}),
   });
