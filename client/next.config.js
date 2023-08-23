@@ -8,5 +8,9 @@ module.exports = {
         pathname: '/static/assets/weapons/**',
       },
     ],
+    domains: [
+      'https://fortnite-db-backend-server.onrender.com/',
+      'https://render.com/',
+    ],
   },
 };
