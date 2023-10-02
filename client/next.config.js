@@ -2,15 +2,11 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '8080',
+        protocol: 'https',
+        hostname: 'onrender.com',
+        port: '',
         pathname: '/static/assets/weapons/**',
       },
-    ],
-    domains: [
-      'https://fortnite-db-backend-server.onrender.com/',
-      'https://render.com/',
     ],
   },
 };

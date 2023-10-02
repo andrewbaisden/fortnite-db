@@ -5,7 +5,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleBurstRare.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleBurstRare.png',
     information: [
       {
         damage: 32,
@@ -27,7 +27,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleBurstRare.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleBurstRare.png',
     information: [
       {
         damage: 38,
@@ -49,7 +49,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleBurst.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleBurst.png',
     information: [
       {
         damage: 27,
@@ -71,7 +71,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleBurst.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleBurst.png',
     information: [
       {
         damage: 29,
@@ -93,7 +93,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleBurst.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleBurst.png',
     information: [
       {
         damage: 30,
@@ -115,7 +115,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleM4.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleM4.png',
     information: [
       {
         damage: 30,
@@ -137,7 +137,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleM4.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleM4.png',
     information: [
       {
         damage: 31,
@@ -159,7 +159,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleM4.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleM4.png',
     information: [
       {
         damage: 33,
@@ -181,7 +181,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleScar.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleScar.png',
     information: [
       {
         damage: 35,
@@ -203,7 +203,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleScar.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleScar.png',
     information: [
       {
         damage: 36,
@@ -225,7 +225,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleScoped.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleScoped.png',
     information: [
       {
         damage: 23,
@@ -247,7 +247,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/assaultRifleScoped.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/assaultRifleScoped.png',
     information: [
       {
         damage: 24,
@@ -269,7 +269,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/heavyAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavyAssaultRifle.png',
     information: [
       {
         damage: 44,
@@ -291,7 +291,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/heavyAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavyAssaultRifle.png',
     information: [
       {
         damage: 46,
@@ -313,7 +313,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/heavyAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavyAssaultRifle.png',
     information: [
       {
         damage: 48,
@@ -335,7 +335,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Minigun',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/minigun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/minigun.png',
     information: [
       {
         damage: 18,
@@ -357,7 +357,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Minigun',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/minigun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/minigun.png',
     information: [
       {
         damage: 19,
@@ -379,7 +379,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/suppressedAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/suppressedAssaultRifle.png',
     information: [
       {
         damage: 32,
@@ -401,7 +401,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/suppressedAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/suppressedAssaultRifle.png',
     information: [
       {
         damage: 33,
@@ -423,7 +423,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/thermalScopeAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/thermalScopeAssaultRifle.png',
     information: [
       {
         damage: 36,
@@ -445,7 +445,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Assault Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/thermalScopeAssaultRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/thermalScopeAssaultRifle.png',
     information: [
       {
         damage: 37,
@@ -467,7 +467,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/heavyShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavyShotgun.png',
     information: [
       {
         damage: 74,
@@ -489,7 +489,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/heavyShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavyShotgun.png',
     information: [
       {
         damage: 77,
@@ -511,7 +511,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/pumpShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pumpShotgun.png',
     information: [
       {
         damage: 95,
@@ -533,7 +533,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/pumpShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pumpShotgun.png',
     information: [
       {
         damage: 100,
@@ -555,7 +555,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/pumpShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pumpShotgun.png',
     information: [
       {
         damage: 105,
@@ -577,7 +577,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/pumpShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pumpShotgun.png',
     information: [
       {
         damage: 110,
@@ -599,7 +599,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/tacticalShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/tacticalShotgun.png',
     information: [
       {
         damage: 67,
@@ -621,7 +621,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/tacticalShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/tacticalShotgun.png',
     information: [
       {
         damage: 70,
@@ -643,7 +643,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Shotgun',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/tacticalShotgun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/tacticalShotgun.png',
     information: [
       {
         damage: 74,
@@ -665,7 +665,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Grappler',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/grappler.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/grappler.png',
     information: [
       {
         damage: 0,
@@ -687,7 +687,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/handCannon.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/handCannon.png',
     information: [
       {
         damage: 75,
@@ -709,7 +709,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/handCannon.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/handCannon.png',
     information: [
       {
         damage: 78,
@@ -731,7 +731,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/pistol.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pistol.png',
     information: [
       {
         damage: 23,
@@ -753,7 +753,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/pistol.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pistol.png',
     information: [
       {
         damage: 24,
@@ -775,7 +775,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/pistol.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/pistol.png',
     information: [
       {
         damage: 25,
@@ -797,7 +797,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/revolver.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/revolver.png',
     information: [
       {
         damage: 54,
@@ -819,7 +819,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/revolver.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/revolver.png',
     information: [
       {
         damage: 57,
@@ -841,7 +841,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/revolver.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/revolver.png',
     information: [
       {
         damage: 60,
@@ -863,7 +863,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/sixShooter.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/sixShooter.png',
     information: [
       {
         damage: 34,
@@ -885,7 +885,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/sixShooter.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/sixShooter.png',
     information: [
       {
         damage: 36,
@@ -907,7 +907,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Revolver',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/sixShooter.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/sixShooter.png',
     information: [
       {
         damage: 38,
@@ -929,7 +929,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/suppressedPistol.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/suppressedPistol.png',
     information: [
       {
         damage: 26,
@@ -951,7 +951,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Pistol',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/suppressedPistol.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/suppressedPistol.png',
     information: [
       {
         damage: 28,
@@ -973,7 +973,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/compactGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/compactGun.png',
     information: [
       {
         damage: 17,
@@ -995,7 +995,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/compactGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/compactGun.png',
     information: [
       {
         damage: 18,
@@ -1017,7 +1017,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/compactGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/compactGun.png',
     information: [
       {
         damage: 19,
@@ -1039,7 +1039,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/compactGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/compactGun.png',
     information: [
       {
         damage: 20,
@@ -1061,7 +1061,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/compactGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/compactGun.png',
     information: [
       {
         damage: 21,
@@ -1083,7 +1083,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Common',
-    img: 'http://localhost:8080/static/assets/weapons/submachineGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/submachineGun.png',
     information: [
       {
         damage: 17,
@@ -1105,7 +1105,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/submachineGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/submachineGun.png',
     information: [
       {
         damage: 18,
@@ -1127,7 +1127,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Submachine Gun',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/submachineGun.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/submachineGun.png',
     information: [
       {
         damage: 19,
@@ -1149,7 +1149,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/boltActionSniperRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/boltActionSniperRifle.png',
     information: [
       {
         damage: 105,
@@ -1171,7 +1171,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/boltActionSniperRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/boltActionSniperRifle.png',
     information: [
       {
         damage: 110,
@@ -1193,7 +1193,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/boltActionSniperRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/boltActionSniperRifle.png',
     information: [
       {
         damage: 116,
@@ -1215,7 +1215,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Crossbow',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/fiendHunterCrossbow.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/fiendHunterCrossbow.png',
     information: [
       {
         damage: 40,
@@ -1237,7 +1237,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/heavySniper.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavySniper.png',
     information: [
       {
         damage: 150,
@@ -1259,7 +1259,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/heavySniper.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/heavySniper.png',
     information: [
       {
         damage: 157,
@@ -1281,7 +1281,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Uncommon',
-    img: 'http://localhost:8080/static/assets/weapons/huntingRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/huntingRifle.png',
     information: [
       {
         damage: 86,
@@ -1303,7 +1303,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Sniper Rifle',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/huntingRifle.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/huntingRifle.png',
     information: [
       {
         damage: 90,
@@ -1325,7 +1325,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Grenade Launcher',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/grenadeLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/grenadeLauncher.png',
     information: [
       {
         damage: 100,
@@ -1347,7 +1347,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Grenade Launcher',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/grenadeLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/grenadeLauncher.png',
     information: [
       {
         damage: 105,
@@ -1369,7 +1369,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Grenade Launcher',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/grenadeLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/grenadeLauncher.png',
     information: [
       {
         damage: 110,
@@ -1391,7 +1391,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Rocket Launcher',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/quadLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/quadLauncher.png',
     information: [
       {
         damage: 80,
@@ -1413,7 +1413,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Rocket Launcher',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/quadLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/quadLauncher.png',
     information: [
       {
         damage: 84,
@@ -1435,7 +1435,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Rocket Launcher',
     itemRarity: 'Rare',
-    img: 'http://localhost:8080/static/assets/weapons/rocketLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/rocketLauncher.png',
     information: [
       {
         damage: 110,
@@ -1457,7 +1457,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Rocket Launcher',
     itemRarity: 'Epic',
-    img: 'http://localhost:8080/static/assets/weapons/rocketLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/rocketLauncher.png',
     information: [
       {
         damage: 116,
@@ -1479,7 +1479,7 @@ const inventory = [
     type: 'weapon',
     weaponType: 'Rocket Launcher',
     itemRarity: 'Legendary',
-    img: 'http://localhost:8080/static/assets/weapons/rocketLauncher.png',
+    img: 'https://fortnite-db-backend-server.onrender.com/static/assets/weapons/rocketLauncher.png',
     information: [
       {
         damage: 121,
